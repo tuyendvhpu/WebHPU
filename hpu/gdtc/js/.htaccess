@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+
+

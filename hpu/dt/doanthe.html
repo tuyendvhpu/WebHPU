@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+</head>
+
+<body>
+
+</body>
+
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>HPU ĐOÀN THỂ</title>
+<link rel="icon" type="text/css" href="../images/common/img_logo_dt.png" />
+ <script src="../js/jquery-1.7.2.min.js" type="text/javascript" language="javascript"></script>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<style>
+@font-face {
+	font-family: 'UTM Alter Gothic';
+	src: url('font/UTM%20Alter%20Gothic.ttf');
+	
+}
+
+@font-face {
+	font-family: 'UTM Aquarelle';
+	src: url('font/UTM%20Aquarelle.ttf');
+	
+}
+</style>
+	<!--[if lt IE 7]>
+		<style type="text/css">
+			#wrapper { height:100%; }
+		</style>
+	<![endif]-->
+
+<link href="../css/doanthe.css" rel="stylesheet" type="text/css" media="screen,print" />
+<link href="../css/slidorion.css" rel="stylesheet" type="text/css" media="screen,print" />
+<link rel="contents" href="/" title="Home" />
+<!--[if lte IE 7]><script language="JavaScript" type="text/javascript" src="../js/fix_png02.js" defer="defer"></script><![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrapper">
+ <div id="layout" class="clearfix">
+       <div id="contenttop" class="clearfix">
+          <div id="header">
+              <table id="tableheader">
+                     <tr>
+                         <td id="col6" >
+						 <a href="index.php" title="Haiphong Private University"> <img src="../images/khoa/img_logo_dt.png" alt="Haiphong Private University"/></a></td>
+                         <td id="col2">  <h1 id="h1namehome">TRƯỜNG ĐẠI HỌC DÂN LẬP HẢI PHÒNG 
+                                         <br/> <span class="spanlevel">TỔ CHỨC - ĐOÀN THỂ</span> 
+                                         <br/> <span class="spandiachi">Tầng 3 nhà G - Email : cbcs@hpu.edu.vn - HOTLINE: 0975216895 </span> 
+
+                         </h1></td>
+                         <td id="col4">
+                           <div id="search">
+					             <form>
+					                  <input id="txtsearch" value="Search" name="Text1" type="text" />
+					             </form>
+					         <!-- end divsearch --></div>
+                                               
+                         </td>
+                     </tr>              
+              </table>
+          <!-- end header --></div>
+       <!-- end contenttop --></div>
+       <div id="contentbody" class="clearfix">
+       <div id="divnavi">
+				              <ul id="ulnavi">
+				                  <li>
+								  <a  title="Haiphong Private University" href="home_gioithieu.php">Giới Thiệu</a></li>
+				 				  <li><a  title="Haiphong Private University" href="tuyensinh.html"> Tin Tức </a></li>
+				                  <li><a  title="Haiphong Private University" href="#">HPU Sự Khác Biệt</a></li>
+				                  <li><a  title="Haiphong Private University" href="#">Thông Báo</a></li>
+				              </ul>
+				          <!-- end divnavi --></div>
+         
+         <div class="clearfix"></div>
+         <div id="newhot">
+                 
+        <script type="text/javascript">
+		jQuery(document).ready(function($){
+			$('.tabs').each(function(){
+				$(this).find('li:first').addClass('current'); // set the first tab to display
+				repeat_slideshow($(this));
+			});
+			$('.tabs li .tab-select').click(function(){
+				$(this).closest('.tabs').find('li').not($(this).parent()).removeClass('current'); // hide all tabs except for the current
+				$(this).parent().addClass('current'); // set the current tab to display
+				reset_slideshow($(this).closest('.tabs'));
+				return false;
+			});
+			function slideshow(slide)
+			{
+				var index = slide.find('li.current').index();
+				var total = slide.find('li').length;
+				if ( index+1 >= total )
+					var next = 0;
+				else
+					var next = index + 1;
+				slide.find('li.current').removeClass('current');
+				slide.find('li').eq(next).addClass('current');
+			}
+			function repeat_slideshow(slide)
+			{
+				slide.data('slideshow', setTimeout(function(){
+						slideshow(slide);
+						repeat_slideshow(slide);
+					}, 5000));
+			}
+			function stop_slideshow(slide)
+			{
+				clearTimeout(slide.data('slideshow'));
+			}
+			function reset_slideshow(slide)
+			{
+				stop_slideshow(slide);
+				repeat_slideshow(slide);
+			}
+		});
+	</script>
+ 
+           <ul class="tabs tabs-3">
+		<li class="">
+			
+			<div class="tab-content" id="tab1">
+				<img src="../images/khoa/img_picdoanthe.jpg" alt="Tab 1"/>
+			</div>
+		</li>
+		<li class="">
+			
+			<div class="tab-content" id="tab2">
+				<img src="../images/khoa/img_picdoanthe.jpg" alt="Tab 1"/>
+		</div>
+		</li>
+		<li class="">
+			
+			<div class="tab-content" id="tab3">
+				<img src="../images/khoa/img_picdoanthe.jpg" alt="Tab 1"/>
+			
+				</div>
+		</li>
+		
+	</ul>
+	
+	<table id="tablecontentbody">
+               <thead>
+                 <tr>
+                      <td style="width:25%"><img src="../images/khoa/img_bgdangbo.jpg" /> </td>
+                      <td style="width:25%"><img style="margin-left:7px;" src="../images/khoa/img_bgcongdoan.jpg" /> </td>
+                      <td style="width:25%"><img style="margin-left:7px;" src="../images/khoa/img_bgdoanhoi.jpg" /> </td>
+                      <td style="width:25%;"><img style="float:right;margin-right:1px" src="../images/khoa/img_doanhoi.jpg" /> </td>  
+                 </tr>
+
+               </thead>
+               <tr>
+                   <td>
+                        <ul id="ulchuyenmuc" class="uldangbo" >
+                             <li> <a href="#">  Hoạt động đảng bộ </a></li>
+                             <li> <a href="#">  Học tập tấm gương Hồ Chí Minh </a></li>
+                             <li> <a href="#">  Điều lệ đảng</a></li>
+                            
+                        </ul>
+
+                   </td>
+                   <td>
+                      <ul id="ulchuyenmuc" class="ulcongdoan">
+                             <li> <a href="#">  Hoạt động công đoàn</a></li>
+                             <li> <a href="#">  Ban nữ công</a></li>
+                             <li> <a href="#">  Quy chế & Luật</a></li>
+                           
+                         </ul>
+                   </td>
+                   <td >
+                        <ul id="ulchuyenmuc" class="uldoanhoi">
+                             <li> <a href="#">  Bản tin đoàn hội</a></li>
+                             <li> <a href="#">  Sinh viên tình nguyện</a></li>
+                             <li> <a href="#">  Giáo dục tuyên truyền</a></li>
+                          
+                        </ul>
+                   </td>
+                   <td >
+                     <ul id="ulchuyenmuc" class="ulcaulacbo">
+                             <li> <a href="#">  Hoạt động của CLB</a></li>
+                             <li> <a href="#">  Góc chia sẻ</a></li>
+                             <li> <a href="#">  Nhịp sống sinh viên</a></li>
+                       </ul>
+                   
+                   </td>
+               </tr>
+          
+          </table>
+
+         <!-- id newshot--></div>
+
+          
+          
+          
+       <!-- end contentbody--></div>
+ <!-- end layout --></div>
+   
+<div id="push"></div>  <!-- end wrapper--></div>
+</body>
+</html>

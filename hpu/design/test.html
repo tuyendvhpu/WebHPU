@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+
+    <title> Gallery with Visible Nearby Images | RoyalSlider Example</title>
+
+    <meta content="Touch-enabled image gallery and content slider plugin, that focuses on providing great user experience on every desktop and mobile device." name="description">
+    <meta name="keywords" content="content slider, gallery, plugin, jquery, banner rotator">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name="author" content="Dmitry Semenov">
+
+    <!-- slider JS files -->
+    
+    <link href="../css/royalslider.css" rel="stylesheet">
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/jquery.royalslider.min.js"></script>
+    
+    <!-- slider stylesheets -->
+    
+    <!-- slider css -->
+    <style>
+  
+
+    </style>
+    
+</head>
+  <body>
+  
+ <div class="sliderContainer visibleNearby fullWidth clearfix">
+  <div id="gallery-1" class="royalSlider rsDefault">
+    <a class="rsImg" data-rsdelay="1000" href="1.jpg">Still Life: Vase with Twelve Sunflowers<span>Vincent van Gogh</span></a>
+    <a class="rsImg" href="3.jpg">Mona Lisa<span>Leonardo da Vinci</span></a>
+    <a class="rsImg" href="4.jpg">American Gothic<span>Grant DeVolson Wood</span></a>
+    <a class="rsImg" href="5.jpg">The Night Watch<span>Rembrandt</span></a>
+     </div>
+</div>
+<script>jQuery(document).ready(function($) {
+  var si = $('#gallery-1').royalSlider({
+    addActiveClass: true,
+    arrowsNav: false,
+    controlNavigation: 'none',
+    autoScaleSlider: true, 
+    autoScaleSliderWidth: 960,     
+    autoScaleSliderHeight: 650,
+    loop: true,
+    fadeinLoadedSlide: false,
+    globalCaption: true,
+    keyboardNavEnabled: true
+  }).data('royalSlider');
+
+  // link to fifth slide from slider description.
+  $('.slide4link').click(function(e) {
+    si.goTo(4);
+    return false;
+  });
+});
+</script>
+  
+</body></html>

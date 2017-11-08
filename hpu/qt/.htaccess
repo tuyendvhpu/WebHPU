@@ -1,0 +1,41 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# disable the server signature
+ServerSignature Off
+
+# set the canonical url
+RewriteCond %{HTTP_HOST} ^qt.hpu.edu.vn\.com$ [NC]
+RewriteRule ^(.*)$ http://qt.hpu.edu.vn/$1 [R=301,L]
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+ErrorDocument 401 /err/400.html
+ErrorDocument 401 /err/401.html
+ErrorDocument 403 /err/403.html
+ErrorDocument 404 /err/404.html
+ErrorDocument 500 /err/500.html
+
+RewriteRule QTthongbao-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&title=$2 [QSA,L]
+RewriteRule QTtintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&atid=$4 [QSA,L]
+RewriteRule QTlich.html$ calendar.php
+RewriteRule QTlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1 [QSA,L]
+RewriteRule QTlich-ngay.html$ calendardate.php
+RewriteRule QTthongbao.html$ list_notice.php
+RewriteRule QTchuyenmuc-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&title=$2 [QSA,L]
+RewriteRule QTchuyenmuc.html$ listnews.php
+RewriteRule QTdoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?obid=$1&title=$2 [QSA,L]
+RewriteRule QTdttimkiem.html$ listnews_ob.php [QSA,L]
+RewriteRule QTtrangchu.html$ index.php
+RewriteRule QTtintuc.html$ listnews.php
+RewriteRule QTthongbaodt-([0-9]+).html$ list_notice_ob.php?obid=$1 [QSA,L]
+RewriteRule QTthongbaodttimkiem.html$ list_notice_ob.php [QSA,L]
+RewriteRule QThethonglienket.html$ systemlist.php
+
+
+

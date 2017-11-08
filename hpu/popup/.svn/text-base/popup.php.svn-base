@@ -1,0 +1,14 @@
+
+<link rel="stylesheet" href="../popup/popup.css">
+  <div id="boxes">
+  <div id="dialog" class="window"> 
+      <div class="divblog">
+      <p class="titleactive"> <a title="Click vào để xem chi tiết" href="http://hpu.edu.vn/tintuc/HPUTT-1-2659-Thong-Bao-Xet-Tuyen-Nguyen-Vong-Bo-Sung-Nam-2015.html"> XÉT TUYỂN NGUYỆN VỌNG BỔ SUNG 2015</a></p>
+      <p class="titlepop"> <a title="Click để đăng ký" class="atitlepopup" href="http://xettuyen.hpu.edu.vn/SoCMTND.html">+  XÉT TUYỂN THEO KẾT QUẢ THI THPT QUỐC GIA</a></p>
+      <p class="titlepop"> <a title="Click để đăng ký" class="atitlepopup" href="http://xettuyen.hpu.edu.vn/SoCMTND.html">+  XÉT TUYỂN THEO HỌC BẠ THPT</a></p>
+       </div>   
+  </div>
+  <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+</div>
+
+<script src="../popup/popup.js"></script>

@@ -1,0 +1,4450 @@
+<?xml version="1.0" standalone="yes"?>
+<ew-language date="2010/9/8" version="7.0.0" id="en" name="Vietnamese" desc="Vietnamese" author="e.World Technology Ltd." fonzie="14px;"  >
+	      
+        <global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Thêm mới"/>
+		<phrase id="addbtn" value="Thêm"/>
+		<phrase id="addlink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_them.gif&quot;&gt;"/>
+		<phrase id="addsuccess" value="Thêm mới thành công"/>
+		<phrase id="advancedsearch" value="Tìm kiêm nâng cao"/>
+		<phrase id="allrecords" value="Tất cả"/>
+		<phrase id="allword" value="Tất cả các từ"/>
+		<phrase id="alwaysask" value="Luôn hỏi tài khoản và mật khẩu"/>
+		<phrase id="anyword" value="Bất kì từ nào"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Tự động đăng nhập cho đến khi đăng xuất hoàn toàn"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Quay trở lại"/>
+		<phrase id="backtologin" value="Quay trở lại trang đăng nhập"/>
+		<phrase id="backtomasterpage" value="Quay trở lại"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="cancelbtn" value="Hủy bỏ"/>
+		<phrase id="cancellink" value="Hủy bỏ"/>
+		<phrase id="changepwd" value="Thay đổi mật khẩu"/>
+		<phrase id="changepwdpage" value="Thay đổi mật khẩu"/>
+		<phrase id="changepwdbtn" value="Thay đổi mật khẩu"/>
+		<phrase id="confirm" value="Xác nhận"/>
+		<phrase id="confirmbtn" value="Xác nhận"/>
+		<phrase id="confirmpassword" value="Xác nhận mật khẩu"/>
+		<phrase id="conflictcancellink" value="Hủy bỏ"/>
+		<phrase id="copylink" value="Sao chép"/>
+                <phrase id="subcompany" value="Đơn vị trực thuộc"/>
+		<phrase id="count" value="Số"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete From"/>
+		<phrase id="deletebtn" value="Xác nhập xóa"/>
+		<phrase id="deletecancelled" value="Hủy bỏ xóa"/>
+		<phrase id="deleteconfirmmsg" value="Bạn có muốn xóa bản ghi này không?" client="1"/>
+		<phrase id="deletelink" value="Xóa"/>
+		<phrase id="deletemulticonfirmmsg" value="Bạn có muốn xóa bản ghi đã chọn không?" client="1"/>
+		<phrase id="deleteselectedlink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_xoa.gif&quot;&gt;"/>
+		<phrase id="deletesuccess" value="Xóa dữ liệu thành công"/>
+                <phrase id="khongthexoadulieu" value="Danh mục tin đã tồn tại danh mục con hoặc đã tồn tại bài viết thuộc danh mục được xóa "/>
+		<phrase id="detaillink" value=""/>
+                <phrase id="detail_t_nganhnghe" value="Ngành nghề con"/>
+                <phrase id="bvphanhoi" value="Tin phản hồi"/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="dupindex" value="Đã nhập '%v' cho trường '%f'"/>
+		<phrase id="dupkey" value="Trùng khóa chính: '%f'"/>
+		<phrase id="edit" value="Sửa"/>
+		<phrase id="editbtn" value="Sửa"/>
+		<phrase id="editlink" value="Sửa"/>
+		<phrase id="enternewpassword" value="Hãy điền mật khẩu mới" client="1"/>
+		<phrase id="enteroldpassword" value="Hãy điền mật khảu cũ" client="1"/>
+		<phrase id="enterpassword" value="Hãy điền mật khẩu" client="1"/>
+		<phrase id="enterpwd" value="Chưa nhập mật khẩu" client="1"/>
+		<phrase id="enterrequiredfield" value="Hãy nhập trường bắt buộc" client="1"/>
+		<phrase id="entersearchcriteria" value="Hãy điền từ khóa tìm kiếm"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+                <phrase id="vanbanchuyenmuc" value="Văn bản thuộc chuyên mục"/>
+		<phrase id="enteruid" value="Chưa nhập tên đăng nhập" client="1"/>
+		<phrase id="entervalidemail" value="Nhập địa chỉ Email!" client="1"/>
+		<phrase id="exactphrase" value="Chính                                               xác"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="&lt;img alt = &quot; Xuất ra CSV &quot; border=&quot;0&quot; src=&quot;images/exportcsv.gif&quot;&gt;"/>
+		<phrase id="exporttoemail" value="&lt;img border=&quot;0&quot; src=&quot;images/exportemail.gif&quot;&gt;" client="1"/>
+		<phrase id="exporttoexcel" value="&lt;img border=&quot;0&quot; src=&quot;images/exportxls.gif&quot;&gt;"/>
+                <phrase id="exporttohtml" value="&lt;img border=&quot;0&quot; src=&quot;images/exportdoc.gif&quot;&gt;"/>
+                <phrase id="exporttoword" value="&lt;img border=&quot;0&quot; src=&quot;images/exportdoc.gif&quot;&gt;"/>
+                <phrase id="exporttoxml" value="&lt;img border=&quot;0&quot; src=&quot;images/exportxml.gif&quot;&gt;"/>
+                <phrase id="failedtosendmail" value="Lỗi khi giửi mail. "/>
+		<phrase id="fieldname" value="Tên trường"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Quên mật khẩu"/>
+		<phrase id="goback" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_trove.gif&quot;&gt;"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Hủy bỏ"/>
+		<phrase id="grideditlink" value="Sửa tất cả"/>
+		<phrase id="gridinsertlink" value="Thêm mới"/>
+		<phrase id="gridsavelink" value="Lưu"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Sai định dạng ngày tháng yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Sai định dạng ngày tháng mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Sai định dạng ngày tháng dd%smm%syyyy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Dữ liệu nhập vào phải là số" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Số nhập vào phải nằm trong khoảng %1 và %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy"/>
+		<phrase id="inlineeditlink" value="Sửa"/>
+		<phrase id="insertcancelled" value="Hủy bỏ thêm mới"/>
+		<phrase id="insertfailed" value="Thêm mới lỗi"/>
+		<phrase id="insertlink" value="Thêm mới"/>
+		<phrase id="insertsuccess" value="Thêm mới thành công"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Sai mật khẩu"/>
+		<phrase id="invaliduidpwd" value="Tên đăng nhập hoặc mật khẩu không đúng"/>
+		<phrase id="keep" value="Giữ lại"/>
+		<phrase id="language" value="Ngôn ngữ"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Hủy bỏ đăng nhập"/>
+		<phrase id="loginpage" value="Đăng nhập"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded."/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="Mật khẩu mới"/>
+		<phrase id="newvalue" value="Giá trị"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="Bạn không có quyền truy cập trang này"/>
+		<phrase id="norecord" value="Không có dữ liệu"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="Không có bản ghi được chọn" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="of" value="của"/>
+		<phrase id="old" value="Cũ"/>
+		<phrase id="oldpassword" value="Mật khẩu cũ"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="Đầu"/>
+		<phrase id="pagerlast" value="Cuối"/>
+		<phrase id="pagernext" value="Sau"/>
+		<phrase id="pagerprevious" value="Trước"/>
+		<phrase id="password" value="Mật khẩu"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Đã đổi mật khẩu"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Phân quyền"/>
+		<phrase id="permissionaddcopy" value="Thêm mới/Sao chép"/>
+		<phrase id="permissiondelete" value="Xóa"/>
+		<phrase id="permissionedit" value="Sửa"/>
+                <phrase id="permissionactive" value="Kích hoạt"/>
+		<phrase id="permissionlistsearchview" value="Liệt kê/Tìm kiếm/Xem"/>
+		<phrase id="permissionlist" value="Liệt kê"/>
+		<phrase id="permissionsearch" value="Tìm kiếm"/>
+
+		<phrase id="permissionview" value="Xem"/>
+		<phrase id="pickdate" value="Chọn ngày tháng"/>
+		<phrase id="pleaseselect" value="Chọn"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="&lt;img border=&quot;0&quot; src=&quot;images/print.gif&quot;&gt;"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="quicksearch" value="Tìm kiếm nhanh"/>
+		<phrase id="quicksearchbtn" value="Tìm kiếm (*)"/>
+                <phrase id="creatreports" value="Tạo báo cáo (*)"/>
+		<phrase id="record" value="Bản ghi"/>
+                <phrase id="parentchuyenmuc_id" value="Chuyên mục con"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Số bản ghi hiển thị"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Đăng ký thành viên"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Loại bỏ"/>
+		<phrase id="replace" value="Ghi đè"/>
+		<phrase id="report" value="Báo cáo"/>
+		<phrase id="requestpwdpage" value="Lấy lại mật khẩu"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Lưu lại tên và mật khẩu"/>
+		<phrase id="search" value="Tìm kiếm"/>
+                <phrase id="reportingcriteria" value="Tiêu chí báo cáo"/>
+		<phrase id="sendemailbtn" value="Gửi"/>
+		<phrase id="sendemailsuccess" value="Email được gửi thành công" client="1"/>
+		<phrase id="sendpwd" value="Gửi mật khẩu"/>
+		<phrase id="showall" value="Hiển thị tất cả"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value="&amp;nbsp;(*)"/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="đến"/>
+		<phrase id="total" value="Tổng số"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="&lt;img src=&quot;images/alert-small.gif&quot; alt=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;16&quot; border=&quot;0&quot;&gt;"/>
+		<phrase id="update" value="Cập nhật"/>
+		<phrase id="updatebtn" value="Cập nhật"/>
+		<phrase id="updatecancelled" value="Cập nhật bị hủy bỏ"/>
+		<phrase id="updatefailed" value="Cập nhật thất bại"/>
+		<phrase id="updatelink" value="Cập nhật"/>
+		<phrase id="updateselectedlink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_kh.gif&quot;&gt;"/>
+		<phrase id="updatesuccess" value="Cập nhật thành công"/>
+		<phrase id="updatevalue" value="Cập nhật"/>
+		<phrase id="useremail" value="Địa chỉ Email của bạn : "/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="Cấp bậc: "/>
+		<phrase id="userleveladministratorname" value="Mã cấp bậc phải lớn hơn 0" client="1"/>
+		<phrase id="userlevelpermission" value="Phân quyền nhóm người dùng"/>
+                <phrase id="subuserlevelpermission" value="Phân quyền người dùng"/>
+		<phrase id="userlevelidinteger" value="Mã cấp bậc phải là số nguyên dương" client="1"/>
+		<phrase id="userleveldefaultname" value="Mã cấp bậc phải lớn hơn 0" client="1"/>
+		<phrase id="userlevelidincorrect" value="Mã cấp bậc phải lớn hơn 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="Không được đặt tên nhóm người dùng là 'Administrator' hoặc 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="Tên đăng nhập"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="Xem"/>
+		<phrase id="viewlink" value="Xem"/>
+                <phrase id="viewsubcategorieslink" value="Thể loại con"/>
+                <phrase id="viewsubsubjectnewslink" value="Chuyên mục con"/>
+                <phrase id="viewsubsubjectbloglink" value="Chuyên mục con"/>
+                <phrase id="viewarticlecommentlink" value="Bình luận"/>
+		<phrase id="viewpageaddlink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_them.gif&quot;&gt;"/>
+		<phrase id="viewpagecopylink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_saochep.gif&quot;&gt;"/>
+		<phrase id="viewpagedeletelink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_xoa.gif&quot;&gt;"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="&lt;img border=&quot;0&quot; src=&quot;images/cmd_sua.gif&quot;&gt;"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables/Views"/>
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="="/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+                <phrase id="C_BELONGTO_ID" value="Đối tượng con"/>
+                
+
+	</global>
+       
+<project><phrase id="bodytitle" value="ĐẠI HỌC DÂN LẬP HẢI PHÒNG"/>
+<phrase id="footertext" value="&amp;copy;2010 e.World Technology Ltd. All rights reserved."/>
+<menu id="40"><phrase id="menutext" value="Thay đổi mật khẩu"/>
+</menu>
+<menu id="41"><phrase id="menutext" value="Quản lý nhóm người dùng"/>
+</menu>
+<menu id="42"><phrase id="menutext" value="Quản lý thông tin chân trang"/>
+</menu>
+<menu id="43"><phrase id="menutext" value="Thông tin tài khoản"/>
+</menu>
+<menu id="44"><phrase id="menutext" value="Quản lý người dùng hệ thống"/>
+</menu>
+<menu id="45"><phrase id="menutext" value="Quản lý người dùng"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="Quản lý cơ cấu chức năng"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="Quản lý cơ cấu phòng ban HPU"/></menu>
+<menu id="12"><phrase id="menutext" value="Quản lý chuyên mục menu ngang"/></menu>
+<menu id="13"><phrase id="menutext" value="Quản lý đối tượng trên level site"/></menu>
+<menu id="14"><phrase id="menutext" value="Quản lý tin bài level site"/></menu>
+<menu id="15"><phrase id="menutext" value="Quản lý thông báo"/></menu>
+<menu id="16"><phrase id="menutext" value="Quản lý đối tượng sinh viên tương lai"/></menu>
+<menu id="17"><phrase id="menutext" value="Quản lý đối tượng sinh viên đang học"/></menu>
+<menu id="18"><phrase id="menutext" value="Quản lý đối tượng cựu sinh viên"/></menu>
+<menu id="20"><phrase id="menutext" value="Quản lý đối tượng doanh nghiệp "/></menu>
+<menu id="21"><phrase id="menutext" value="Quản lý danh mục giới thiệu "/></menu>
+<menu id="22"><phrase id="menutext" value="Quản lý danh mục tuyển sinh "/></menu>
+<menu id="23"><phrase id="menutext" value="Quản lý hệ thống liên quan"/></menu>
+
+<menu id="30"><phrase id="menutext" value="Quản lý tin bài Mainsite  "/></menu>
+<menu id="50"><phrase id="menutext" value="Quản lý thông báo Mainsite  "/></menu>
+
+<menu id="60"><phrase id="menutext" value="Quản lý danh mục lịch công tác"/></menu>
+<menu id="61"><phrase id="menutext" value="Quản lý ghi chú lịch theo tuần"/></menu>
+<menu id="62"><phrase id="menutext" value="Quản lý lịch levelsite"/></menu>
+<menu id="63"><phrase id="menutext" value="Quản lý lịch mainsite"/></menu>
+
+<menu id="70"><phrase id="menutext" value="Quản lý đa phương tiện"/></menu>
+<menu id="71"><phrase id="menutext" value="Quản lý Silde"/></menu>
+<menu id="168"><phrase id="menutext" value="Quản lý sự kiện"/></menu>
+<menu id="169"><phrase id="menutext" value="t event mainlevel"/></menu>
+<menu id="170"><phrase id="menutext" value="Quản lý thông tin cá nhân"/></menu>
+
+<table id="t_doituong_levelsite"><phrase id="tblcaption" value="Đối tượng levelsite"/>
+<field id="pk_doituong"><phrase id="fldcaption" value="PK DOITUONG"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_icon"><phrase id="fldcaption" value="ICON"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_belogto"><phrase id="fldcaption" value="C_BELOGTO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_location"><phrase id="fldcaption" value="Đường dẫn url"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_tinbai"><phrase id="tblcaption" value="t tinbai"/>
+<field id="pk_tinbai_id"><phrase id="fldcaption" value="PK TINBAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_chuyenmuc_id"><phrase id="fldcaption" value="FK CHUYENMUC ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tieude"><phrase id="fldcaption" value="C TIEUDE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tomtat"><phrase id="fldcaption" value="C TOMTAT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_noidung"><phrase id="fldcaption" value="C NOIDUNG"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fileanh"><phrase id="fldcaption" value="C FILEANH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_chuthich"><phrase id="fldcaption" value="C CHUTHICH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tgxuatban"><phrase id="fldcaption" value="C TGXUATBAN"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_noibat"><phrase id="fldcaption" value="C NOIBAT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_binhluan"><phrase id="fldcaption" value="C BINHLUAN"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hits"><phrase id="fldcaption" value="C HITS"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_thutu"><phrase id="fldcaption" value="C THUTU"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_trangthai"><phrase id="fldcaption" value="C TRANGTHAI"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+
+</table>
+
+<table id="commune"><phrase id="tblcaption" value="commune"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="commune_id"><phrase id="fldcaption" value="commune id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_code"><phrase id="fldcaption" value="province code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_code"><phrase id="fldcaption" value="district code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_code"><phrase id="fldcaption" value="commune code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_name"><phrase id="fldcaption" value="commune name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_name"><phrase id="fldcaption" value="district name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_name"><phrase id="fldcaption" value="province name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="admin_level"><phrase id="fldcaption" value="admin level"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_population"><phrase id="fldcaption" value="commune population"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_area"><phrase id="fldcaption" value="commune area"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="code_pro_city"><phrase id="fldcaption" value="code pro city"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="code_urban"><phrase id="fldcaption" value="code urban"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="admin_code"><phrase id="fldcaption" value="admin code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="meteorological"><phrase id="fldcaption" value="meteorological"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_centroid"><phrase id="fldcaption" value="commune centroid"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="district"><phrase id="tblcaption" value="district"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="district_id"><phrase id="fldcaption" value="district id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_code"><phrase id="fldcaption" value="province code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_code"><phrase id="fldcaption" value="district code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_name"><phrase id="fldcaption" value="district name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_name"><phrase id="fldcaption" value="province name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_population"><phrase id="fldcaption" value="district population"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_area"><phrase id="fldcaption" value="district area"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="admin_code"><phrase id="fldcaption" value="admin code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="city_level"><phrase id="fldcaption" value="city level"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="meteorological"><phrase id="fldcaption" value="meteorological"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_centroid"><phrase id="fldcaption" value="district centroid"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="postal_code"><phrase id="fldcaption" value="postal code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="area_desc"><phrase id="fldcaption" value="area desc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="admin_units"><phrase id="fldcaption" value="admin units"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="cultural_info"><phrase id="fldcaption" value="cultural info"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="other_info"><phrase id="fldcaption" value="other info"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pop_year"><phrase id="fldcaption" value="pop year"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="province"><phrase id="tblcaption" value="province"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="province_id"><phrase id="fldcaption" value="province id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_code"><phrase id="fldcaption" value="province code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_name"><phrase id="fldcaption" value="province name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_population"><phrase id="fldcaption" value="province population"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_area"><phrase id="fldcaption" value="province area"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="zone_code"><phrase id="fldcaption" value="zone code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="computed_area"><phrase id="fldcaption" value="computed area"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="admin_code"><phrase id="fldcaption" value="admin code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="zone_name"><phrase id="fldcaption" value="zone name"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_centroid"><phrase id="fldcaption" value="province centroid"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="phone_code"><phrase id="fldcaption" value="phone code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="postal_code"><phrase id="fldcaption" value="postal code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="registration_code"><phrase id="fldcaption" value="registration code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="iso_code"><phrase id="fldcaption" value="iso code"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="website"><phrase id="fldcaption" value="website"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="admin_units"><phrase id="fldcaption" value="admin units"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="area_desc"><phrase id="fldcaption" value="area desc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="history"><phrase id="fldcaption" value="history"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="capital"><phrase id="fldcaption" value="capital"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="wellknown_locations"><phrase id="fldcaption" value="wellknown locations"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="other_info"><phrase id="fldcaption" value="other info"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="economic_info"><phrase id="fldcaption" value="economic info"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pop_year"><phrase id="fldcaption" value="pop year"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_chuyenmuc_levelsite"><phrase id="tblcaption" value="Chuyên mục menu "/>
+<field id="pk_chuyenmuc"><phrase id="fldcaption" value="PK CHUYENMUC"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_parent"><phrase id="fldcaption" value="C PARENT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+
+
+<table id="t_cn_khithai"><phrase id="tblcaption" value="Quản lý công nghệ xử lý khí thải"/>
+<field id="pk_cnkhithai_id"><phrase id="fldcaption" value="PK CNKHITHAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tencongnghe"><phrase id="fldcaption" value="Tên Công nghệ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_congty"><phrase id="tblcaption" value="Thông tin chung"/>
+<field id="pk_macongty"><phrase id="fldcaption" value="PK MACONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nganh_id"><phrase id="fldcaption" value="FK NGANH ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tencongty"><phrase id="fldcaption" value="C TENCONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tenviettat"><phrase id="fldcaption" value="C TENVIETTAT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_logo"><phrase id="fldcaption" value="C LOGO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_website"><phrase id="fldcaption" value="C WEBSITE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_code"><phrase id="fldcaption" value="PROVINCE CODE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_code"><phrase id="fldcaption" value="DISTRICT CODE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_code"><phrase id="fldcaption" value="COMMUNE CODE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="C DIACHI"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_dienthoai"><phrase id="fldcaption" value="C DIENTHOAI"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fax"><phrase id="fldcaption" value="C FAX"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="C EMAIL"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_giamdoc"><phrase id="fldcaption" value="C GIAMDOC"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_loaihinh"><phrase id="fldcaption" value="C LOAIHINH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_vonnn"><phrase id="fldcaption" value="C VONNN"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_dientich"><phrase id="fldcaption" value="C DIENTICH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_solaodong"><phrase id="fldcaption" value="C SOLAODONG"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_calamviec"><phrase id="fldcaption" value="C CALAMVIEC"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_mota"><phrase id="fldcaption" value="C MOTA"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="longitude"><phrase id="fldcaption" value="LONGITUDE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="latitude"><phrase id="fldcaption" value="LATITUDE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_tinbai_levelsite"><phrase id="tblcaption" value="Quản lý tin bài"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tinbai_id"><phrase id="fldcaption" value="pk_tinbai_id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_chuyenmuc_id"><phrase id="fldcaption" value="Chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_doituong_id"><phrase id="fldcaption" value="Đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sumary"><phrase id="fldcaption" value="Tóm tắt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_contents"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_publish"><phrase id="fldcaption" value="Trạng thái main_stie"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái level_sites"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fileanh"><phrase id="fldcaption" value="Đường dẫn ảnh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_timepublish"><phrase id="fldcaption" value="C TIMEPUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_coment"><phrase id="fldcaption" value="Comment facebook"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sendmail"><phrase id="fldcaption" value="Gửi Mail  hỗ trợ thiết kế"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_contents_mail"><phrase id="fldcaption" value="Nội dung - Đường đẫn ảnh cần chỉnh sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hits"><phrase id="fldcaption" value="Tin nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status"><phrase id="fldcaption" value="Xuất bản Mainsite "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Tác giả"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nguoidung_id"><phrase id="fldcaption" value="Người duyệt level site"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_visitor"><phrase id="fldcaption" value="C VISITOR"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_source"><phrase id="fldcaption" value="C SOURCE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_editor_id"><phrase id="fldcaption" value="FK_EDITOR_ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_note"><phrase id="fldcaption" value="Ghi chú"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+
+<field id="c_sendmail_levelsite"><phrase id="fldcaption" value="Gửi mail cho người duyệt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fk_browse"><phrase id="fldcaption" value="Danh sách người duyệt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_main"><phrase id="fldcaption" value="Link ảnh Mainsite "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_science"><phrase id="fldcaption" value="Link ảnh khoa-bộ môn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_rom"><phrase id="fldcaption" value="Link ảnh khối phòng ban"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_mass"><phrase id="fldcaption" value="Link ảnh khối đoàn thể"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_lib"><phrase id="fldcaption" value="Link ảnh TTTT- Thư Viện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+
+
+</table>
+
+<table id="t_nganhnghe">
+<phrase id="tblcaption" value="Quản lý cơ cấu chức năng"/>
+<field id="pk_nganh_id">
+<phrase id="fldcaption" value="PK NGANH ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tennganh">
+<phrase id="fldcaption" value="Tên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_trangthai">
+<phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add">
+<phrase id="fldcaption" value="Người thêm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_belongto">
+<phrase id="fldcaption" value=""/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time">
+<phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit">
+<phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time">
+<phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field></table>
+<table id="t_nguoidung"><phrase id="tblcaption" value="t nguoidung"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nguoidung_id"><phrase id="fldcaption" value="PK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="FK MACONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tendangnhap"><phrase id="fldcaption" value="C TENDANGNHAP"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_matkhau"><phrase id="fldcaption" value="C MATKHAU"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hoten"><phrase id="fldcaption" value="C HOTEN"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="C DIACHI"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel"><phrase id="fldcaption" value="C TEL"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_home"><phrase id="fldcaption" value="C TEL HOME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_mobile"><phrase id="fldcaption" value="C TEL MOBILE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fax"><phrase id="fldcaption" value="C FAX"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="C EMAIL"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_profile"><phrase id="fldcaption" value="C PROFILE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_userlevelid"><phrase id="fldcaption" value="FK USERLEVELID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_nguonkhithai"><phrase id="tblcaption" value="Quản lý nguồn khí thải"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nguon_id"><phrase id="fldcaption" value="PK NGUON ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_ten_nguonthai"><phrase id="fldcaption" value="Tên nguồn khí thải"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_nhomdo"><phrase id="tblcaption" value="Quản lý nhóm tham số đo"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nhomthamsodo_id"><phrase id="fldcaption" value="PK NHOMTHAMSODO ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tennhom"><phrase id="fldcaption" value="Tên nhóm tham số đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_nhomnd"><phrase id="tblcaption" value="t nhomnd"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nhomnd_id"><phrase id="fldcaption" value="PK NHOMND ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tennhom"><phrase id="fldcaption" value="C TENNHOM"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_motanhom"><phrase id="fldcaption" value="C MOTANHOM"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_nhomnganh"><phrase id="tblcaption" value="Quản lý nhóm ngành cần đo"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nhomnganh_id"><phrase id="fldcaption" value="PK NHOMNGANH ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nhomnganh"><phrase id="fldcaption" value="Nhóm ngành cần đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nhom_option"><phrase id="fldcaption" value="Danh mục nhóm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_mota"><phrase id="fldcaption" value="Thông tin mô tả"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_quanlymt"><phrase id="tblcaption" value="Quản lý môi trường"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_quanlymt_id"><phrase id="fldcaption" value="PK QUANLYMT ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_httieuchuan"><phrase id="fldcaption" value="Áp dụng tiêu chuẩn quản lý môi trường (ISO 14000)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_dvbaocao"><phrase id="fldcaption" value="Đơn vị có Báo cáo đánh giá tác động môi trường hoặc Đề án bảo vệ môi trường"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_chuyentrach"><phrase id="fldcaption" value="Đơn vị có lực lượng chuyên trách về môi trường"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sochuyentrach"><phrase id="fldcaption" value="Số người chuyên trách"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_giayxacnhan"><phrase id="fldcaption" value="Đơn vị có giấy xác nhận hoàn thành các hạng mục xử lý môi trường theo ĐTM, cam kết BVMT hoặc Đề án bảo vệ môi trường "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sodangky"><phrase id="fldcaption" value="Đơn vị có Sổ đăng ký chủ nguồn thải chất thải nguy hại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_quantrac"><phrase id="fldcaption" value="Đơn vị có thực hiện quan trắc kiểm soát ô nhiễm định kỳ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nuocngam"><phrase id="fldcaption" value="Đơn vị có tự khai thác, sử dụng nước ngầm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_giaynuocngam"><phrase id="fldcaption" value="Đơn vị có giấy phép khai thác nước ngầm không?"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_kp_bvmt"><phrase id="fldcaption" value="Xác định được kinh phí cho công tác bảo vệ môi trường"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_kinhphi"><phrase id="fldcaption" value="Kinh phí cho công tác bảo vệ môi trường (Triệu đồng)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_xathai"><phrase id="fldcaption" value="Đơn vị có giấy phép xả nước thải vào nguồn tiếp nhận"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nam"><phrase id="fldcaption" value="Năm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_reason"><phrase id="fldcaption" value="Lý do"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_sdnhienlieu"><phrase id="tblcaption" value="Quản lý tổng nhiên liệu sử dụng"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_sdnhienlieu_id"><phrase id="fldcaption" value="PK SDNHIENLIEU ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nam"><phrase id="fldcaption" value="Năm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_loainhienlieu"><phrase id="fldcaption" value="Loại nhiên liệu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tongnamtruoc"><phrase id="fldcaption" value="Tổng lượng sd &lt;br/ &gt; năm trước (tấn/năm)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tongnamnay"><phrase id="fldcaption" value="Tổng lượng sd dự kiến &lt;br/ &gt; năm hiện tại (tấn/năm)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_sdnuoc"><phrase id="tblcaption" value="Quản lý sử dụng nước"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_sdnuoc_id"><phrase id="fldcaption" value="PK SDNUOC ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nam"><phrase id="fldcaption" value="Năm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nuoc_may"><phrase id="fldcaption" value="Nước máy"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nuoc_gieng"><phrase id="fldcaption" value="Nước ngầm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="nuoc_mat"><phrase id="fldcaption" value="Nước mặt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="tong_luong"><phrase id="fldcaption" value="Tổng lượng (m3/năm)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_sddien"><phrase id="tblcaption" value="Quản lý sử dụng điện"/>
+<field id="pk_sddien_id"><phrase id="fldcaption" value="pk sddien id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nam"><phrase id="fldcaption" value="Năm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tongluong"><phrase id="fldcaption" value="Tổng lượng (Kw/năm)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_tchuanthamsodo"><phrase id="tblcaption" value="Áp dụng tiêu chuẩn cho tham số đo"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tchuanthamsodo_id"><phrase id="fldcaption" value="PK TCHUANTHAMSODO ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_tieuchuan_id"><phrase id="fldcaption" value="Tiêu chuẩn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_thamsodo_id"><phrase id="fldcaption" value="Tham số đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_chuan"><phrase id="fldcaption" value="Chuẩn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_mucchuanduoi"><phrase id="fldcaption" value="Mức chuẩn &lt;br/&gt;dưới"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_chuantren"><phrase id="fldcaption" value="Mức chuẩn &lt;br/&gt;trên "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_khongnguong"><phrase id="fldcaption" value="Không ngưỡng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_tcqlmt"><phrase id="tblcaption" value="Quản lý danh mục hệ thống tiêu chuẩn"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tcqlmt_id"><phrase id="fldcaption" value="PK TCQLMT ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tentc"><phrase id="fldcaption" value="Tên hệ thống tiêu chuẩn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_thamsodo"><phrase id="tblcaption" value="Quản lý tham số đo"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_thamsodo_id"><phrase id="fldcaption" value="PK THAMSODO ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_mathamsodo"><phrase id="fldcaption" value="Mã tham số đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nhomthamsodo_id"><phrase id="fldcaption" value="Nhóm tham số đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tentiengviet"><phrase id="fldcaption" value="Tên tiếng việt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tentienganh"><phrase id="fldcaption" value="Tên tiếng anh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_kyhieu"><phrase id="fldcaption" value="Ký hiệu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_donvido"><phrase id="fldcaption" value="Đơn vị đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_tieuchuan"><phrase id="tblcaption" value="Quản lý danh mục tiêu chuẩn"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tieuchuan_id"><phrase id="fldcaption" value="PK TIEUCHUAN ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tentieuchuan"><phrase id="fldcaption" value="Tên danh mục tiêu chuẩn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nhomthamsodo_id"><phrase id="fldcaption" value="Nhóm tham số đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_tinbai"><phrase id="tblcaption" value="Quản lý tin bài"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tinbai_id"><phrase id="fldcaption" value="PK TINBAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_chuyenmuc_id"><phrase id="fldcaption" value="Chuyên mục tin"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tieude"><phrase id="fldcaption" value="Tiêu dề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tomtat"><phrase id="fldcaption" value="Tóm tắt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_noidung"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fileanh"><phrase id="fldcaption" value="C FILEANH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_chuthich"><phrase id="fldcaption" value="Chú thích"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tgxuatban"><phrase id="fldcaption" value="Thời gian xuất bản"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_noibat"><phrase id="fldcaption" value="Nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_binhluan"><phrase id="fldcaption" value="Bình Luận"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hits"><phrase id="fldcaption" value="C HITS"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_thutu"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_trangthai"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_ttsanxuat"><phrase id="tblcaption" value="Thông tin về sản xuất"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_ttsanxuat_id"><phrase id="fldcaption" value="PK TTSANXUAT ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tendaychuyen"><phrase id="fldcaption" value="Tên dây chuyền"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sddaychuyen"><phrase id="fldcaption" value="Sơ đồ dây chuyền"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_namsx"><phrase id="fldcaption" value="Năm sản xuất"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nguoncn"><phrase id="fldcaption" value="Nguồn gốc công nghệ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nlsxchinh"><phrase id="fldcaption" value="Nguyên liệu sản xuất chính"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_spchinh"><phrase id="fldcaption" value="Sẩn phẩm chính"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_vanban"><phrase id="tblcaption" value="Quản lý văn bản"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_vannban_id"><phrase id="fldcaption" value="PK VANNBAN ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pk_nguoidung_id"><phrase id="fldcaption" value="PK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nhom"><phrase id="fldcaption" value="Tên danh mục văn bản"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tenvanban"><phrase id="fldcaption" value="Tên văn bản"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sohieu"><phrase id="fldcaption" value="Số hiệu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_ngaybanhanh"><phrase id="fldcaption" value="Ngày ban hành"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_trichyeu"><phrase id="fldcaption" value="Trích dẫn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_duongdan"><phrase id="fldcaption" value="File đính kèm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_trangthai"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_do_nganh"><phrase id="tblcaption" value="Thiết lập tham số đo theo nhóm ngành"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_thamsodonganh_id"><phrase id="fldcaption" value="PK THAMSODONGANH ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nhomnganh_id"><phrase id="fldcaption" value="Thuộc yêu cầu đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_thamsodo_id"><phrase id="fldcaption" value="Tham số đo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_tieuchuan_id"><phrase id="fldcaption" value="Tiêu chuẩn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_cthainguyhai_sl"><phrase id="tblcaption" value="t cthainguyhai sl"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_slcthainguyhai_id"><phrase id="fldcaption" value="PK SLCTHAINGUYHAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_nam"><phrase id="fldcaption" value="C NAM"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="FK MACONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_cthainguyhai_id"><phrase id="fldcaption" value="FK CTHAINGUYHAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_soluong"><phrase id="fldcaption" value="C SOLUONG"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="userlevelpermissions"><phrase id="tblcaption" value="userlevelpermissions"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="userlevelid"><phrase id="fldcaption" value="userlevelid"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="ztablename"><phrase id="fldcaption" value="tablename"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="permission"><phrase id="fldcaption" value="permission"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="userlevels"><phrase id="tblcaption" value="Quản lý nhóm người dùng"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="userlevelid"><phrase id="fldcaption" value="Nhóm người dùng ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="userlevelname"><phrase id="fldcaption" value="Tên nhóm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="userleveltype"><phrase id="fldcaption" value="Loại nhóm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="user"><phrase id="tblcaption" value="Thông tin tài khoản"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nguoidung_id"><phrase id="fldcaption" value="PK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tendangnhap"><phrase id="fldcaption" value="Tên đăng nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_matkhau"><phrase id="fldcaption" value="C MATKHAU"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hoten"><phrase id="fldcaption" value="Họ và tên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="Địa chỉ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel"><phrase id="fldcaption" value="Số điện thoại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_home"><phrase id="fldcaption" value="Số điện thoại nhà riêng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_mobile"><phrase id="fldcaption" value="Số di động"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fax"><phrase id="fldcaption" value="Số fax"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="Email"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_userlevelid"><phrase id="fldcaption" value="Cấp bậc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="usersadmin"><phrase id="tblcaption" value="Quản lý người dùng hệ thống"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nguoidung_id"><phrase id="fldcaption" value="PK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tendangnhap"><phrase id="fldcaption" value="Tên đăng nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_matkhau"><phrase id="fldcaption" value="Mật khẩu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hoten"><phrase id="fldcaption" value="Họ và tên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="Địa chỉ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel"><phrase id="fldcaption" value="Số điện thoại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_home"><phrase id="fldcaption" value="Số điện thoại nhà riêng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_mobile"><phrase id="fldcaption" value="Số di động"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fax"><phrase id="fldcaption" value="Số fax"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="Email"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_userlevelid"><phrase id="fldcaption" value="Cấp bậc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="users"><phrase id="tblcaption" value="Quản lý người dùng"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_nguoidung_id"><phrase id="fldcaption" value="PK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tendangnhap"><phrase id="fldcaption" value="Tên đăng nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_matkhau"><phrase id="fldcaption" value="Mật khẩu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_macongty"><phrase id="fldcaption" value="Tên công ty"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hoten"><phrase id="fldcaption" value="Họ và tên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="Địa chỉ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel"><phrase id="fldcaption" value="Số điện thoại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_home"><phrase id="fldcaption" value="Số điện thoại nhà riêng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tel_mobile"><phrase id="fldcaption" value="Số di động"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fax"><phrase id="fldcaption" value="Số fax"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="Email"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_userlevelid"><phrase id="fldcaption" value="Cấp bậc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_congty"><phrase id="tblcaption" value="Thông tin đơn vị"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_macongty"><phrase id="fldcaption" value="PK MACONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nganh_id"><phrase id="fldcaption" value="Tên ngành"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tencongty"><phrase id="fldcaption" value="Tên đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_tenviettat"><phrase id="fldcaption" value="Tên viết tắt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_logo"><phrase id="fldcaption" value="Logo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_website"><phrase id="fldcaption" value="Website"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="province_code"><phrase id="fldcaption" value="Tỉnh/Thành phố"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="district_code"><phrase id="fldcaption" value="Quận/Huyện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="commune_code"><phrase id="fldcaption" value="Phường/Xã"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="Địa chỉ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_dienthoai"><phrase id="fldcaption" value="Điện thoại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fax"><phrase id="fldcaption" value="Fax"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="Email"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_giamdoc"><phrase id="fldcaption" value="Giám đốc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_loaihinh"><phrase id="fldcaption" value="Loại hình"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_vonnn"><phrase id="fldcaption" value="Vốn nhà nước(Tỷ đồng)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_dientich"><phrase id="fldcaption" value="Diện tích(ha)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_solaodong"><phrase id="fldcaption" value="Số lao động (người)"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_calamviec"><phrase id="fldcaption" value="Số ca làm việc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_mota"><phrase id="fldcaption" value="Mô tả đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="longitude"><phrase id="fldcaption" value="Vị trí kinh độ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="latitude"><phrase id="fldcaption" value="Vị trí vĩ độ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="Người nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="Thời gian nhập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field> 
+
+<field id="c_type_template"><phrase id="fldcaption" value="Template"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+
+<field id="c_user_edit"><phrase id="fldcaption" value="Người sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_report_status"><phrase id="fldcaption" value="Hình thức báo cáo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_parrent"><phrase id="fldcaption" value="Công ty cấp trên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_lienhe"><phrase id="tblcaption" value="Quản lý thông tin liên hệ"/>
+<field id="fk_hoidap"><phrase id="fldcaption" value="FK HOIDAP"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hopthu"><phrase id="fldcaption" value="Hộp thư"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_ten"><phrase id="fldcaption" value="Họ tên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diachi"><phrase id="fldcaption" value="Địa chỉ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_chucvu"><phrase id="fldcaption" value="Chức vụ"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_dt"><phrase id="fldcaption" value="Điện thoại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_diendai"><phrase id="fldcaption" value="Thông tin"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_doituong_svdanghoc"><phrase id="tblcaption" value="Đối tượng sinh viên đang học"/>
+<field id="dtsvdanghoc_id"><phrase id="fldcaption" value="DTSVDANGHOC ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_belongto"><phrase id="fldcaption" value="C BELONGTO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url"><phrase id="fldcaption" value="Đường dẫn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_add"><phrase id="fldcaption" value="C TIME ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_edit"><phrase id="fldcaption" value="C TIME EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="FK CONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_thongbao_levelsite"><phrase id="tblcaption" value="Thông báo level site"/>
+<field id="pk_thongbao"><phrase id="fldcaption" value="PK THONGBAO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_doituong_id"><phrase id="fldcaption" value="Đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_publish"><phrase id="fldcaption" value="Trạng thái Mainsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái Levelsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_array_congty"><phrase id="fldcaption" value="Đơn vị liên quan"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_notice_hit"><phrase id="fldcaption" value="Thông báo nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_keyword"><phrase id="fldcaption" value="Từ khóa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_begin_date"><phrase id="fldcaption" value="Thời gian bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_end_date"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nguoidung_id"><phrase id="fldcaption" value="FK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fileanh"><phrase id="fldcaption" value="Ảnh thông báo nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pk_chuyenmuc_id"><phrase id="fldcaption" value="Chuyên mục thông báo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_doituong_doanhnghiep"><phrase id="tblcaption" value="Đối tượng doanh nghiệp"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="dtdoanhnghiep_id"><phrase id="fldcaption" value="DTDOANHNGHIEP ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_belongto"><phrase id="fldcaption" value="C BELONGTO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url"><phrase id="fldcaption" value="Đường dẫn url"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fk_congty"><phrase id="fldcaption" value="C FK CONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_doituong_svtuonglai"><phrase id="tblcaption" value="Đối tượng sinh viên tương lai"/>
+<field id="dtsvtuonglai_id"><phrase id="fldcaption" value="DTSVTUONGLAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_belongto"><phrase id="fldcaption" value="C BELONGTO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url"><phrase id="fldcaption" value="Đường dẫn url"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_add"><phrase id="fldcaption" value="C TIME ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_edit"><phrase id="fldcaption" value="C TIME EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="FK CONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_doituong_cuusv"><phrase id="tblcaption" value="Đối tượng cựu sinh viên"/>
+<field id="dtcuusv_id"><phrase id="fldcaption" value="DTCUUSV ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_belongto"><phrase id="fldcaption" value="C BELONGTO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url"><phrase id="fldcaption" value="Đường dẫn url"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_add"><phrase id="fldcaption" value="C TIME ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_edit"><phrase id="fldcaption" value="C TIME EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_thongbao_mainsite"><phrase id="tblcaption" value="Thông báo Mainsite"/>
+<field id="pk_thongbao"><phrase id="fldcaption" value="PK THONGBAO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_publish"><phrase id="fldcaption" value="Xuất bản"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Kích hoạt LevelSite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_begin_date"><phrase id="fldcaption" value="Thời gian bắt đầu "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_end_date"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nguoidung_id"><phrase id="fldcaption" value="FK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_danhmucgioithieu"><phrase id="tblcaption" value="Quản lý danh mục giới thiệu"/>
+<field id="pk_danhmucgioithieu"><phrase id="fldcaption" value="PK DANHMUCGIOITHIEU"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="Loại danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_description"><phrase id="fldcaption" value="Diễn giải"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url"><phrase id="fldcaption" value="Đường dẫn url"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_danhmuctuyensinh"><phrase id="tblcaption" value="Danh mục tuyển sinh"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_danhmuctuyensinh"><phrase id="fldcaption" value="PK DANHMUCTUYENSINH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="C TYPE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên danh mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_description"><phrase id="fldcaption" value="Diễn giải"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_htlienquan"><phrase id="tblcaption" value="Hệ thống liên kết"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="sys_id"><phrase id="fldcaption" value="SYS ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_ob_id"><phrase id="fldcaption" value="Đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên hệ thống"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_icon"><phrase id="fldcaption" value="ICON"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url"><phrase id="fldcaption" value="Đường dẫn url"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_tinbai_mainsite"><phrase id="tblcaption" value="Tin bài Mainsite"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tinbai_id"><phrase id="fldcaption" value="PK TINBAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_dmgioithieu_id"><phrase id="fldcaption" value="Chuyên mục giới thiệu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_dmtuyensinh_id"><phrase id="fldcaption" value="Chuyên mục tuyển sinh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_dtsvtuonglai_id"><phrase id="fldcaption" value="Đối tượng sinh viên tương lai"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_dtsvdanghoc_id"><phrase id="fldcaption" value="Đối tượng sinh viên đang học"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_dtcuusv_id"><phrase id="fldcaption" value="Đối tượng cựu sinh viên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_dtdoanhnghiep_id"><phrase id="fldcaption" value="Đối tượng doanh nghiệp"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_array_congty"><phrase id="fldcaption" value="Đơn vị liên quan"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sumary"><phrase id="fldcaption" value="C SUMARY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_contents"><phrase id="fldcaption" value="C CONTENTS"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hit_mainsite"><phrase id="fldcaption" value="Tin nổi bật các đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_hit"><phrase id="fldcaption" value="Ảnh tin nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_new_myseflt"><phrase id="fldcaption" value="Tin chúng tôi"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_myseflt"><phrase id="fldcaption" value="Ảnh tin chúng tôi"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_comment_mainsite"><phrase id="fldcaption" value="Comment bài viết"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order_mainsite"><phrase id="fldcaption" value="Thứ tự bài viết"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status_mainsite"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_visitor_mainsite"><phrase id="fldcaption" value="C VISITOR MAINSITE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_note"><phrase id="fldcaption" value="Ghi chú"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_editor_id"><phrase id="fldcaption" value="FK EDITOR ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active_mainsite"><phrase id="fldcaption" value="Xuất bản Mainsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_active_mainsite"><phrase id="fldcaption" value="C TIME ACTIVE MAINSITE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nguoidungid_mainsite"><phrase id="fldcaption" value="FK NGUOIDUNGID MAINSITE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sendmail"><phrase id="fldcaption" value="Gửi Mail cho bộ phận thiết kế"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_contents_mail"><phrase id="fldcaption" value="Nội dung - Đường dẫn ảnh cần chỉnh sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_main"><phrase id="fldcaption" value="Ảnh nổi bật Mainsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_science"><phrase id="fldcaption" value="Ảnh nổi bật khối khoa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_rom"><phrase id="fldcaption" value="Ảnh nổi bật khối phòng ban"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_mass"><phrase id="fldcaption" value="Ảnh nổi bật khối đoàn thể"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic_lib"><phrase id="fldcaption" value="Ảnh nổi bật khối trung tâm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_danhmuclich"><phrase id="tblcaption" value="Quản lý danh mục lịch"/>
+<field id="sb_id"><phrase id="fldcaption" value="SB ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_name"><phrase id="fldcaption" value="Tên danh mục lịch"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_ghichu_lich"><phrase id="tblcaption" value="Ghi chú lịch công tác theo tuần"/>
+<field id="sb_note_id"><phrase id="fldcaption" value="SB NOTE ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_year"><phrase id="fldcaption" value="Năm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_week"><phrase id="fldcaption" value="Tuần"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_cong_ty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_add"><phrase id="fldcaption" value="C TIME ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_edit"><phrase id="fldcaption" value="C TIME EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+
+</table>
+
+<table id="t_lichcongtac"><phrase id="tblcaption" value="Lịch công tác"/>
+<field id="c_cadenlar_id"><phrase id="fldcaption" value="C CADENLAR ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_sb_id"><phrase id="fldcaption" value="Danh mục lịch"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_date_star"><phrase id="fldcaption" value="Ngày bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hour_start"><phrase id="fldcaption" value="Thời gian bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_minutes_star"><phrase id="fldcaption" value=""/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_date_end"><phrase id="fldcaption" value="Ngày kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hour_end"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_minutes_end"><phrase id="fldcaption" value=""/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status_end"><phrase id="fldcaption" value="Trạng thái kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status_star"><phrase id="fldcaption" value="Trạng thái bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_organization"><phrase id="fldcaption" value="Thành phần tham gia khác"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_participants_id"><phrase id="fldcaption" value="Thành phần tham gia trong trường"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_where"><phrase id="fldcaption" value="Địa điểm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_prepared"><phrase id="fldcaption" value="Chuẩn bị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_option"><phrase id="fldcaption" value="Tùy chọn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_file_attach"><phrase id="fldcaption" value="File đính kèm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Xuất bản Levelsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_active"><phrase id="fldcaption" value="C DATETIME ACTIVE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_publish"><phrase id="fldcaption" value="Xuất bản Mainsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_publish"><phrase id="fldcaption" value="C DATETIME PUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fk_publish"><phrase id="fldcaption" value="C FK PUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_lichcongtac_mainsite"><phrase id="tblcaption" value="Lịch công tác trường"/>
+<field id="c_cadenlar_id"><phrase id="fldcaption" value="C CADENLAR ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_sb_id"><phrase id="fldcaption" value="Danh mục lịch"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_date_star"><phrase id="fldcaption" value="Ngày bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hour_start"><phrase id="fldcaption" value="Thời gian bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_minutes_star"><phrase id="fldcaption" value=""/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_date_end"><phrase id="fldcaption" value="Ngày kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hour_end"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_minutes_end"><phrase id="fldcaption" value=""/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status_end"><phrase id="fldcaption" value=""/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_organization"><phrase id="fldcaption" value="Thành phần tham gia khác"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_participants_id"><phrase id="fldcaption" value="Thành phần thgam gia trong trường"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_where"><phrase id="fldcaption" value="Địa điểm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_prepared"><phrase id="fldcaption" value="Chuẩn bị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_option"><phrase id="fldcaption" value="Tùy chọn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_file_attach"><phrase id="fldcaption" value="File đính kèm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Xuất bản đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_active"><phrase id="fldcaption" value="Thời gian"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_publish"><phrase id="fldcaption" value="Xuất bản mainsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_publish"><phrase id="fldcaption" value="C DATETIME PUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fk_publish"><phrase id="fldcaption" value="C FK PUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_tinbai_mainsite_level"><phrase id="tblcaption" value="Tin bài từ trường"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_tinbai_mainlevel"><phrase id="fldcaption" value="PK TINBAI MAINLEVEL"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pk_tinbai_id"><phrase id="fldcaption" value="PK TINBAI ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_chuyenmuc_id"><phrase id="fldcaption" value="Chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_doituong_id"><phrase id="fldcaption" value="Đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề bài viết"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_sumary"><phrase id="fldcaption" value="Tóm tắt bài viết"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_contents"><phrase id="fldcaption" value="Nội dung bài viết"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_coment"><phrase id="fldcaption" value="Comment"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fileanh"><phrase id="fldcaption" value="File ảnh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hits"><phrase id="fldcaption" value="Tin nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_visitor"><phrase id="fldcaption" value="Lượt truy cập"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nguoidung_id"><phrase id="fldcaption" value="FK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_editor_id"><phrase id="fldcaption" value="FK EDITOR ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_array_congty"><phrase id="fldcaption" value="FK ARRAY CONGTY"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+
+</table>
+<table id="t_thongbao_mainlevel_ob"><phrase id="tblcaption" value="Thông báo liên quan"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_thongbao_mainlevel"><phrase id="fldcaption" value="PK THONGBAO MAINLEVEL"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pk_thongbao"><phrase id="fldcaption" value="PK THONGBAO"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="FK CONGTY ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_doituong_id"><phrase id="fldcaption" value="Đối tượng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="pk_chuyenmuc_id"><phrase id="fldcaption" value="Chuyên mục"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_title"><phrase id="fldcaption" value="Tiêu đề thông báo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content"><phrase id="fldcaption" value="Nội dung"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_publish"><phrase id="fldcaption" value="C PUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_publish"><phrase id="fldcaption" value="C TIME PUBLISH"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Kích hoạt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_keyword"><phrase id="fldcaption" value="Từ khóa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_begin_date"><phrase id="fldcaption" value="Thời gian bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_end_date"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_nguoidung_id"><phrase id="fldcaption" value="FK NGUOIDUNG ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type"><phrase id="fldcaption" value="C TYPE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_notice_hit"><phrase id="fldcaption" value="Thông báo nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fileanh"><phrase id="fldcaption" value="Ảnh thông báo nổi bật"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_send"><phrase id="fldcaption" value="Đơn vị thông báo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="advertising"><phrase id="tblcaption" value="Quản lý đa phương tiện"/>
+<field id="advertising_id"><phrase id="fldcaption" value="advertising id"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_desc"><phrase id="fldcaption" value="Link youtube "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_link"><phrase id="fldcaption" value="Liên kết"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_url"><phrase id="fldcaption" value="Đường dẫn "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_type"><phrase id="fldcaption" value="Loại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_order"><phrase id="fldcaption" value="Thứ tự "/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="width_x"><phrase id="fldcaption" value="Độ rộng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="hieght_y"><phrase id="fldcaption" value="Chiều cao"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_pos"><phrase id="fldcaption" value="Vị trí"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="create_time"><phrase id="fldcaption" value="Thời gian thêm"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="edit_time"><phrase id="fldcaption" value="Thời gian sửa"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_state"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="advertising_name"><phrase id="fldcaption" value="Tiêu đề"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_linkad"><phrase id="tblcaption" value="Quản lý slide"/>
+<field id="c_linkad_id"><phrase id="fldcaption" value="C LINKAD ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_name"><phrase id="fldcaption" value="Tên slide"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_des"><phrase id="fldcaption" value="Liên kết slide"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_type"><phrase id="fldcaption" value="Loại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_url"><phrase id="fldcaption" value="Link URL Ảnh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_pos"><phrase id="fldcaption" value="Vị trí"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_linkad_active"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_send_mail"><phrase id="fldcaption" value="Gửi mail"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_img_source"><phrase id="fldcaption" value="Ảnh nguồn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+
+<table id="t_event"><phrase id="tblcaption" value="Quản lý sự kiện"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="c_event_id"><phrase id="fldcaption" value="C EVENT ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_event_name"><phrase id="fldcaption" value="Tên sự kiện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type_event"><phrase id="fldcaption" value="Loại sự kiện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url_images"><phrase id="fldcaption" value="Đường dẫn ảnh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url_link"><phrase id="fldcaption" value="Đường dẫn link"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_post"><phrase id="fldcaption" value="Vị trí"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_begin"><phrase id="fldcaption" value="Thời gian bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_end"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_oder"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_note"><phrase id="fldcaption" value="Ghi chú"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active_levelsite"><phrase id="fldcaption" value="Trạng thái Levelsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_array_congty"><phrase id="fldcaption" value="Danh sách đơn vị liên quan"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_array_tinbai"><phrase id="fldcaption" value="Danh sách tin bài"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_active"><phrase id="fldcaption" value="C TIME ACTIVE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_send_mail"><phrase id="fldcaption" value="Xác nhận gửi mail"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_content_mail"><phrase id="fldcaption" value="Nội dung mail"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fk_browse"><phrase id="fldcaption" value="Xác nhận gửi mail người duyệt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_event_mainlevel"><phrase id="tblcaption" value="Quản lý sự kiện liên quan"/>
+<phrase id="tblpagecaption1" value=""/>
+<field id="pk_event_mainlevel"><phrase id="fldcaption" value="PK EVENT MAINLEVEL"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_event_id"><phrase id="fldcaption" value="FK EVENT ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Tên đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_event_name"><phrase id="fldcaption" value="Tên sự kiện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type_event"><phrase id="fldcaption" value="Loại sự kiện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url_images"><phrase id="fldcaption" value="Đường dẫn ảnh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_url_link"><phrase id="fldcaption" value="Đường dẫn link"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_post"><phrase id="fldcaption" value="Vị trí"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_begin"><phrase id="fldcaption" value="Thời gian bắt đầu"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_datetime_end"><phrase id="fldcaption" value="Thời gian kết thúc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_note"><phrase id="fldcaption" value="Ghi chú"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active_levelsite"><phrase id="fldcaption" value="Kích hoạt Levelsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_active"><phrase id="fldcaption" value="thời gian kích hoạt"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_send"><phrase id="fldcaption" value="FK CONGTY SEND"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_type_active"><phrase id="fldcaption" value="C TYPE ACTIVE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_array_tinbai"><phrase id="fldcaption" value="Danh sách tin bài đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+<table id="t_lylich"><phrase id="tblcaption" value="Quản lý Thông Tin Cá Nhân"/>
+<field id="pk_profile_id"><phrase id="fldcaption" value="PK PROFILE ID"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_fullname"><phrase id="fldcaption" value="Họ Tên"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_birthday"><phrase id="fldcaption" value="Năm Sinh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_position"><phrase id="fldcaption" value="Chức Danh"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_work_address"><phrase id="fldcaption" value="Nơi Làm Việc"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_email"><phrase id="fldcaption" value="Email"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_phone"><phrase id="fldcaption" value="Điện Thoại"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_blog"><phrase id="fldcaption" value="Webiste"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_personal_profile"><phrase id="fldcaption" value="Thông tin cá nhân"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_educatiion"><phrase id="fldcaption" value="Quá trình đào tạo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_skills"><phrase id="fldcaption" value="Kỹ năng"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_work_experience"><phrase id="fldcaption" value="Quá trình công tác chuyên môn"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_scientific_research"><phrase id="fldcaption" value="Quá trình nghiên cứu khoa học"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_hobbies"><phrase id="fldcaption" value="Sở thích"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_references"><phrase id="fldcaption" value="Tham khảo"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_add"><phrase id="fldcaption" value="C USER ADD"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_add_time"><phrase id="fldcaption" value="C ADD TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_user_edit"><phrase id="fldcaption" value="C USER EDIT"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_edit_time"><phrase id="fldcaption" value="C EDIT TIME"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active"><phrase id="fldcaption" value="Trạng thái Levelsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_active"><phrase id="fldcaption" value="C TIME ACTIVE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="fk_congty_id"><phrase id="fldcaption" value="Đơn vị"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_active_mainsite"><phrase id="fldcaption" value="Trạng thái MAINSITE"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_time_activem"><phrase id="fldcaption" value="C TIME ACTIVEM"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order_level"><phrase id="fldcaption" value="Thứ tự"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_order_main"><phrase id="fldcaption" value="Thứ tự mainsite"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_pic"><phrase id="fldcaption" value="Ảnh đại diện"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_status"><phrase id="fldcaption" value="Trạng thái"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_note"><phrase id="fldcaption" value="Ghi chú"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+<field id="c_template"><phrase id="fldcaption" value="Template"/>
+<phrase id="flderrmsg" value=""/>
+<phrase id="fldtitle" value=""/>
+<phrase id="fldalt" value=""/>
+</field>
+</table>
+</project>
+</ew-language>

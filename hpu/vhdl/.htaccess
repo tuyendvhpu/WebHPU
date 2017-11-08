@@ -1,0 +1,47 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# disable the server signature
+ServerSignature Off
+
+# set the canonical url
+RewriteCond %{HTTP_HOST} ^vhdl.hpu.edu.vn\.com$ [NC]
+RewriteRule ^(.*)$ http://vhdl.hpu.edu.vn/$1 [R=301,L]
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+ErrorDocument 401 /err/400.html
+ErrorDocument 401 /err/401.html
+ErrorDocument 403 /err/403.html
+ErrorDocument 404 /err/404.html
+ErrorDocument 500 /err/500.html
+
+RewriteRule VHDLthongbao-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&title=$2 [QSA,L]
+RewriteRule VHDLtintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&atid=$4 [QSA,L]
+RewriteRule VHDLlich.html$ calendar.php
+RewriteRule VHDLlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1 [QSA,L]
+RewriteRule VHDLlich-ngay.html$ calendardate.php
+RewriteRule VHDLthongbao.html$ list_notice.php
+RewriteRule VHDLchuyenmuc-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&title=$2 [QSA,L]
+RewriteRule VHDLchuyenmuc.html$ listnews.php
+RewriteRule VHDLdoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?obid=$1&title=$2 [QSA,L]
+RewriteRule VHDLdttimkiem.html$ listnews_ob.php [QSA,L]
+RewriteRule VHDLtrangchu.html$ index.php
+RewriteRule VHDLtintuc.html$ listnews.php
+RewriteRule VHDLthongbaodt-([0-9]+).html$ list_notice_ob.php?obid=$1 [QSA,L]
+RewriteRule VHDLthongbaodttimkiem.html$ list_notice_ob.php [QSA,L]
+RewriteRule VHDLhethonglienket.html$ systemlist.php
+RewriteRule ScientificProfile.html$ profile.php
+
+
+

@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule HPUCSV-([a-zA-Z0-9_-]+).html$ cuusv.php?sturl=$1 [QSA,L]
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule DDTthongbao-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&title=$2
+RewriteRule DDTtintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&atid=$4
+RewriteRule DDTlich.html$ calendar.php
+RewriteRule DDTlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1
+RewriteRule DDTlich-ngay.html$ calendardate.php
+RewriteRule DDTthongbao.html$ list_notice.php
+RewriteRule DDTchuyenmuc-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&title=$2
+RewriteRule DDTchuyenmuc.html$ listnews.php
+RewriteRule DDTdoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?obid=$1&title=$2 [QSA,L]
+RewriteRule DDTdttimkiem.html$ listnews_ob.php [QSA,L]
+RewriteRule DDTtrangchu.html$ index.php
+RewriteRule DDTtintuc.html$ listnews.php
+RewriteRule DDTthongbaodt-([0-9]+).html$ list_notice_ob.php?obid=$1 [QSA,L]
+RewriteRule DDTthongbaodttimkiem.html$ list_notice_ob.php [QSA,L]
+RewriteRule DDThethonglienket.html$ systemlist.php
+
+
+

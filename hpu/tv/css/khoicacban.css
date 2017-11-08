@@ -1,0 +1,474 @@
+﻿@charset "utf-8";
+
+/* Table Of Contents
+----------------------------------------
+
+# General Elements
+# body
+# layout
+# header
+# gNav
+# pageBody
+# content
+# sidebar
+# footer
+# clearfix
+# common classes
+
+----------------------------------------*/
+
+
+/* for all
+---------------------------------------------------------------------------- */
+
+@import "modules.css";
+
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+
+
+
+a    { color: black; text-decoration: none; outline: none; }
+a:hover   { color: #FF6600; }
+
+p.custom_font{
+	font-family: "UTM Alter Gothic"; /* no .ttf */
+}
+/* # body
+---------------------------------------------------------------------------- */
+
+body {
+	color: #000;
+	font-size: 75%;
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	line-height: 1.5;
+	margin:0;
+	padding:0;
+	height:100%;
+
+	
+}
+
+
+/* # layout
+---------------------------------------------------------------------------- */
+
+div#wrapper {
+	min-height:100%;
+	position:relative;
+    background:#FFFFFF url('../images/khoa/img_bgkhoitrungtam.jpg') repeat-x;
+
+}
+
+
+div#layout {
+	margin: 0 auto;
+	width: 1000px;
+	padding-bottom:60px; /* Height of the footer element */
+	/*background:aqua; */
+}
+
+
+
+div#layout_z {
+	margin: 0 auto;
+	width: 1000px;
+	/*background:aqua; */
+}
+
+div#layout_y {
+	margin: 0 auto;
+	width: 1000px;
+	/*background:aqua; */
+	padding:10px 0px 10px 0px;
+}
+
+
+/* # header
+---------------------------------------------------------------------------- */
+#header {
+clear:both;
+height:100px;
+border-bottom:2px #dad3ca solid;
+
+}
+#tableheader {
+	height:70px;
+}
+
+#tableheader tr td#col6 {
+	width:68px;
+	vertical-align:top;
+    padding-top:5px;
+    }
+#tableheader tr td#col2 {
+
+	vertical-align:top;
+    padding-top:5px;
+    padding-left:10px;
+
+}
+#tableheader tr td#col4 {
+     vertical-align:top;
+     width:58%;
+     padding-top:10px;
+}
+
+h1#h1namehome {
+	font-family: "UTM Alter Gothic"; /* no .ttf */
+    color:white;
+    font-size:27px;
+    line-height:25px;
+   
+}
+
+span.spanlevel {
+	color:#f9ed33;
+	 font-size:25px;
+}
+
+span.spandiachi {
+	font-size:14px;
+}
+    
+
+
+/*---begin divnavi ---*/
+div#divnavi {
+	clear:both;
+	height:38px;
+
+}
+    
+/* # gNav
+---------------------------------------------------------------------------- */
+ul#ulnavi {
+	display:block;
+	list-style:none;
+    float:right;
+    background:#fafafa;
+	
+}
+
+ul#ulnavi li
+{
+	display:inline;
+	height:38px;
+	line-height:38px;
+	
+	
+}
+ul#ulnavi li a{
+	float:left;
+	color:white;font-size:19px;font-family: "UTM Alter Gothic"; /* no .ttf */
+	padding:12px;
+    border-left:1px #61a8d4 solid;
+    color:#00aeef;
+    
+}
+
+ul#ulnavi li a:hover {
+
+	background:#d96c36;
+	color:white
+}
+
+
+a.amemnuactive {
+	text-decoration:underline;
+
+}
+
+/*--- begin divcontentheadr ---*/
+div#contentheader {
+	clear:both;
+	
+}
+
+
+/*----------- div search--------------*/
+
+
+div#contentbody {
+}
+div#search
+{
+	float:right;
+	padding:5px 0px 5px 0px;
+
+	
+}
+
+
+div#newhot {
+	background:url('../images/khoa/img_bgnewhot.jpg') no-repeat;
+	width:1000px;
+	height:375px;
+}
+
+
+#txtsearch {
+	background:#a7a9ac;
+	height:20px;
+	width:250px;
+	border:none;
+	color:white;
+	padding:5px;
+	background:#a7a9ac url('../images/khoa/img_bgsearh.png') no-repeat;
+	background-position:right center;
+	margin-right:5px;
+	
+}
+
+
+div#contentbody table#tablecontentbody
+{
+	width:100%;
+	margin-top:10px;
+	
+}
+
+div#contentbody table#tablecontentbody tr td
+{
+	padding:0px 10px 0px 10px;
+	vertical-align:top;
+
+	
+}
+
+
+p.ptextheader {
+	background:url('../images/index/img_line.jpg') no-repeat;
+	background-position:left bottom;
+	font-family: "UTM Alter Gothic"; /* no .ttf */
+    font-size:19px;
+	color:#f15a29;
+	padding-bottom:3px;
+
+}
+
+p.ptextheadertintuc {
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#d96c36;
+color:white;
+font-size:20px;
+	
+}
+
+span.xemthemtintuc {
+padding:10px 15px 10px 15px;
+background:#d96c36;
+color:white;
+
+}
+
+p.ptextheaderthongbao{
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#005393;
+color:white;
+font-size:20px;
+	
+}
+
+span.xemthemthongbao{
+padding:10px 15px 10px 15px;
+background:#005393;
+color:white;
+
+}
+
+
+p.ptextheaderbancobiet{
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#3679bd;
+color:white;
+font-size:20px;
+	
+}
+
+
+span.xemthembancobiet{
+padding:10px 15px 10px 15px;
+background:#3679bd;
+color:white;
+
+}
+
+
+p.ptextheaderlienket{
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#4b9ad4;
+color:white;
+font-size:20px;
+}
+
+span.xemthemhethong{
+padding:10px 15px 10px 15px;
+background:#4b9ad4;
+color:white;
+
+}
+
+
+
+ul#ultintuc  {
+	display:block;
+	background:#ffffff;
+
+}
+ul#ultintuc li {
+  
+  background-position:center bottom;
+  height:40px;
+  border-bottom:1PX black dotted;
+  padding-bottom:5PX;
+  padding-top:10PX;
+}
+
+ul#ultintuc li.liend {
+border-bottom:none;
+padding-top:10px;
+}
+
+ul#ultintuc li a {
+color:#202121;
+
+
+	}
+ul#ultintuc li a:hover {
+color:#FF6600;
+}
+
+
+ .tabs
+		{
+			position: relative;
+			height: 430px;
+			width: 640px;
+			list-style-type: none;
+			margin:0px 0 40px;
+			padding: 0;
+			overflow: hidden;
+		}
+		.tabs-1
+		{
+			width: 380px;
+			padding: 0 0 0 260px;
+		}
+		.tabs-3
+		{
+			height: 400px;
+			width: 340px;
+			padding: 0 0 0 660px;
+		}
+		.tabs li
+		{
+			float: left;
+		}
+		.tabs-3 li
+		{
+			float: none;
+		}
+		.tabs li .tab-select
+		{
+			display: block;
+			float: left;
+			color: white;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		
+
+		
+		
+		.tabs-3 li .tab-select
+		{
+			float: none;
+			height:80px;
+		    padding:10px 0px 0px 0px;
+
+          		
+					}
+		.tabs-3 li:first-child .tab-select
+		{
+			
+			
+		}
+		.tabs-3 li .tab-select h3
+		{
+			margin: 0;
+			font-size: 16px;
+		}
+		.tabs-3 li .tab-select p
+		{
+			margin: 0;
+			padding: 0;
+		}
+		.tabs li .tab-content
+		{
+			position: absolute;
+			top: 30px;
+			left: 0;
+			height: 400px;
+			width: 640px;
+			opacity: 0;
+			-moz-transition: opacity 0.5s linear;
+			-o-transition: opacity 0.5s linear;
+			-webkit-transition: opacity 0.5s linear;
+			transition: opacity 0.5s linear;
+			z-index: 2;
+		}
+		.tabs-3 li .tab-content
+		{
+			top: 0;
+			padding:10px 0px 0px 10px;
+		}
+		.tabs li .tab-select:hover
+		{
+		
+			color:black;
+         
+		
+		}
+		.tabs li.current .tab-select
+		{
+		  
+		color:black;		
+			
+		}
+		.tabs li.current .tab-content
+		{
+			opacity: 1;
+			z-index: 4;
+		}
+		
+		
+		
+		
+ul#ulchuyenmuc {
+	display:block;
+	margin-right:15px;
+
+}
+
+ul#ulchuyenmuc li {
+ background:url('../images/index/img_dot.jpg') repeat-x;
+  padding-bottom:15px;
+  margin-top:10px;
+  background-position:center bottom;
+
+}
+
+ul#ulchuyenmuc li a {
+font-weight:bold;
+font-size:13px;
+}
+
+
+

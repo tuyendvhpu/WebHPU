@@ -1,0 +1,155 @@
+/* Text Styles */
+hr { color: #000000}
+body, table, tr, th /* Normal */
+{
+ font-size: 11pt;
+ font-family: Calibri;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 8pt;
+ font-family: 'Courier New';
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_heading1 /* heading 1 */
+{
+ font-size: 16pt;
+ font-family: Cambria;
+ font-weight: bold;
+}
+span.f_heading2 /* heading 2 */
+{
+ font-size: 14pt;
+ font-family: Cambria;
+ font-style: italic;
+ font-weight: bold;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 16pt;
+ font-weight: bold;
+}
+span.f_Hyperlink /* Hyperlink */
+{
+ font-size: 10pt;
+ font-family: Arial;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 8pt;
+ font-weight: bold;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_toc1 /* toc 1 */
+{
+}
+span.f_toc2 /* toc 2 */
+{
+}
+span.f_TOCHeading /* TOC Heading */
+{
+ font-size: 14pt;
+ font-family: Cambria;
+ font-weight: bold;
+ color: #365f91;
+}
+/* Paragraph styles */
+p /* Normal */
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.15;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 13px 0px;
+}
+.p_CodeExample /* Code Example */
+{
+ line-height: 1.0;
+ white-space: nowrap;
+ margin: 0px 0px 0px 0px;
+}
+.p_Comment /* Comment */
+{
+}
+.p_heading1 /* heading 1 */
+{
+ margin: 16px 0px 4px 0px;
+}
+.p_heading2 /* heading 2 */
+{
+ margin: 16px 0px 4px 0px;
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.15;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 13px 0px;
+}
+.p_ImageCaption /* Image Caption */
+{
+}
+.p_Notes /* Notes */
+{
+}
+.p_toc1 /* toc 1 */
+{
+}
+.p_toc2 /* toc 2 */
+{
+ margin: 0px 0px 13px 15px;
+}
+.p_TOCHeading /* TOC Heading */
+{
+ margin: 32px 0px 0px 0px;
+}
+
+
+#hmpopupdiv /* used for javascript text popups */
+{
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #FFFFFF;
+  padding: 6px;
+  border:1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888;
+}
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}

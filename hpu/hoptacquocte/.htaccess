@@ -1,0 +1,51 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# disable the server signature
+ServerSignature Off
+
+# set the canonical url
+RewriteCond %{HTTP_HOST} ^tv.hpu.edu.vn\.com$ [NC]
+RewriteRule ^(.*)$ http://tv.hpu.edu.vn/$1 [R=301,L]
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+ErrorDocument 401 /err/400.html
+ErrorDocument 401 /err/401.html
+ErrorDocument 403 /err/403.html
+ErrorDocument 404 /err/404.html
+ErrorDocument 500 /err/500.html
+
+
+RewriteRule HTQT-trangchu.html$ index.php
+
+RewriteRule TT-Thongtin-Thuvienthongbao-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&title=$2
+RewriteRule TT-Thongtin-Thuvientintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&atid=$4
+RewriteRule TT-Thongtin-Thuvienlich.html$ calendar.php
+RewriteRule TT-Thongtin-Thuvienlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1
+RewriteRule TT-Thongtin-Thuvienlich-ngay.html$ calendardate.php
+RewriteRule TT-Thongtin-Thuvienthongbao.html$ list_notice.php
+RewriteRule TT-Thongtin-Thuvienchuyenmuc-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&title=$2 [QSA,L]
+RewriteRule TT-Thongtin-Thuvienchuyenmuc.html$ listnews.php 
+RewriteRule TT-Thongtin-Thuviendoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?obid=$1&title=$2 [QSA,L]
+RewriteRule TT-Thongtin-Thuviendttimkiem.html$ listnews_ob.php [QSA,L]
+RewriteRule TT-Thongtin-Thuvientrangchu.html$ index.php
+RewriteRule TT-Thongtin-Thuvientintuc.html$ listnews.php
+RewriteRule TT-Thongtin-Thuvienthongbaodt-([0-9]+).html$ list_notice_ob.php?obid=$1 [QSA,L]
+RewriteRule TT-Thongtin-Thuvienthongbaodttimkiem.html$ list_notice_ob.php [QSA,L]
+RewriteRule TT-Thongtin-Thuvienhethonglienket.html$ systemlist.php
+
+
+
+
+
+

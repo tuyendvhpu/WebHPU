@@ -1,0 +1,20 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>TEST TEMPLATE</title>
+</head>
+<body>
+<script type="text/javascript">
+function showstuff(element){
+    document.getElementById("have").style.display = element=="have"?"block":"none";
+    document.getElementById("look").style.display = element=="look"?"block":"none";
+}
+</script>
+<select name="type" onchange="showstuff(this.value);">
+          <option value="look">Look</option>
+          <option value="have" selected>Have</option>
+</select>
+<div id="have" style="display:block;">Have</div>
+<div id="look" style="display:none;">Look</div>
+</body>
+</html>  

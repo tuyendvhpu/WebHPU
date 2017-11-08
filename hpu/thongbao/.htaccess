@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+
+RewriteRule HPUTB-([a-zA-Z0-9_-]+).html$ thongbao.php?sturl=$1 [QSA,L]
+RewriteRule HPUTBC-([a-zA-Z0-9_-]+).html$ dsthongbao.php?sturl=$1 [QSA,L]
+RewriteRule HPUCTTB-([0-9]+)-([a-zA-Z0-9_-]+).html$ ctthongbao.php?PK_THONGBAO=$1&sturl=$2 [QSA,L]
+
+
+
+
+
+

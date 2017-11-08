@@ -1,0 +1,886 @@
+﻿@charset "utf-8";
+
+/* Table Of Contents
+----------------------------------------
+
+# General Elements
+# body
+# layout
+# header
+# gNav
+# pageBody
+# content
+# sidebar
+# footer
+# clearfix
+# common classes
+
+----------------------------------------*/
+
+
+/* for all
+---------------------------------------------------------------------------- */
+
+@import "modules.css";
+
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+
+
+
+a    { color: black; text-decoration: none; outline: none; }
+a:hover   { color: #FF6600; }
+
+p.custom_font{
+	font-family: "UTM Alter Gothic"; /* no .ttf */
+}
+/* # body
+---------------------------------------------------------------------------- */
+
+body {
+	color: #000;
+	font-size: 75%;
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	line-height: 1.5;
+	margin:0;
+	padding:0;
+	height:100%;
+
+	
+}
+html, body {
+	height: 100%;
+}
+
+/* # layout
+---------------------------------------------------------------------------- */
+
+div#wrapper {
+	min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin-bottom:-25px; /* - height of footer */
+        background:#FFFFFF url('../images/khoa/img_bgkhoaqtkd.jpg') repeat-x;
+
+}
+
+
+div#layout {
+	margin: 0 auto;
+	width: 1000px;
+	/* padding-bottom:60px; /* Height of the footer element */
+	/*background:aqua; */
+}
+
+
+
+div#layout_z {
+	margin: 0 auto;
+	width: 1000px;
+	/*background:aqua; */
+}
+
+div#layout_y {
+	margin: 0 auto;
+	width: 1000px;
+	/*background:aqua; */
+	padding:10px 0px 10px 0px;
+}
+
+
+/* # header
+---------------------------------------------------------------------------- */
+#header {
+clear:both;
+height:90px;
+border-bottom:2px #dad3ca solid;
+}
+#tableheader {
+	height:70px;
+}
+
+#tableheader tr td#col6 {
+	width:68px;
+ vertical-align:top;
+    padding-top:10px;
+    
+    }
+#tableheader tr td#col2 {
+ width: 350px;
+ vertical-align:top;
+ padding-top:10px;
+ padding-left: 10px;
+
+}
+#tableheader tr td#col4 {
+     width: 572px;
+     vertical-align:top;
+     padding-top:10px;
+}
+
+h1#h1namehome {
+	font-family: "UTM Alter Gothic"; /* no .ttf */
+    color:white;
+    font-size:27px;
+    line-height:25px;
+   
+}
+
+span.spanlevel {
+	color:#f9ed33;
+}
+span.spanlevel_home {
+	color:white;
+}
+
+span.spandiachi {
+	font-size:14px;
+}
+    
+
+
+/*---begin divnavi ---*/
+div#divnavi {
+	clear:both;
+	height:38px;
+
+}
+    
+/* # gNav
+---------------------------------------------------------------------------- */
+ul#ulnavi {
+	display:block;
+	list-style:none;
+    float:right;
+    background:#00282f;
+	
+}
+
+ul#ulnavi li
+{
+	display:inline;
+	height:34px;
+	line-height:30px;
+	
+	
+}
+ul#ulnavi li a{
+	float:left;
+	color:white;font-size:12px;font-family: Arial; /* no .ttf */
+	padding:12px;
+        border-left:1px #0a3440 solid;
+         text-transform: uppercase;
+}
+
+ul#ulnavi li a:hover {
+
+	background:#da7928;
+	color:white
+}
+ul#ulnavi li a.activemenu {
+	background:#da7928;
+	color:white
+}
+
+
+a.amemnuactive {
+	text-decoration:underline;
+
+}
+
+/*--- begin divcontentheadr ---*/
+div#contentheader {
+	clear:both;
+	
+}
+
+
+/*----------- div search--------------*/
+
+
+div#contentbody {
+	
+}
+div#search
+{
+	float:right;
+	padding:5px 0px 5px 0px;
+        position: relative;	
+}
+
+#txtsearch {
+	background:#b39971;
+	height:20px;
+	width:285px;
+	border:none;
+	color:white;
+	padding:5px;
+	background:#00282f;
+	background-position:right center;
+}
+#inputsubmit {
+    background:#00282f url('../images/khoa/search-icon.png') no-repeat;
+    border: none;
+    position: absolute;
+    top:7px;
+    height:26px;
+    width: 26px;
+    right:0px;
+    cursor: pointer;
+}
+#inputsubmit:hover {
+    border: 1px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: white;  
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;  
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;  
+   
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;  
+}
+
+ #dropdown {
+    /* cancel the default list style */
+    list-style:none;
+    margin:0;
+    padding:0;
+    float: right;
+    position:relative;
+  }
+    #dropdown li {
+    }
+    
+    #dropdown li a.parent {
+        display:block;
+        height:40px;
+        font-weight:700;
+        line-height:35px;
+    }
+    
+    #dropdown li a.hover {
+        background:url(parent.gif) 0px -40px no-repeat;    
+    }
+    
+        #dropdown ul {
+            
+            /* cancel the default list style */
+            margin:0;
+            padding:0;
+            list-style:none;    
+            display:none;
+            /* make sure it has the highest z-index */
+            position:absolute;
+            right:0px;
+            z-index:1500;
+            width:324px;
+            height:345px;
+            background: #d6d6d6;
+            background: -moz-linear-gradient(top, #d6d6d6 0%, #ffffff 10%);
+            background: -webkit-linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
+            background: -o-linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
+            background: -ms-linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
+            background: linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
+            box-shadow: 3px 3px 3px #888888;
+            -moz-box-shadow:    3px 3px 3px #888888;
+            -webkit-box-shadow: 3px 3px 3px #888888;   
+   }
+
+
+div#contentbody table#tablecontentbody
+{
+	width:100%;
+	margin-top:10px;
+	
+}
+
+div#contentbody table#tablecontentbody tr td
+{
+	
+	vertical-align:top;
+}
+
+p.ptextheadertintuc {
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#da7928;
+color:white;
+}
+p.ptextheadertintuc a{
+       text-transform: uppercase;
+        font-family: "UTM Alter Gothic"; /* no .ttf */
+	color: white;
+        font-size:20px;
+     
+}
+p.pretty-hover {
+    background:#ed7a35;
+}
+span.xemthemtintuc {
+padding:10px 15px 10px 15px;
+background:#d96c36;
+color:white;
+}
+
+p.ptextheaderthongbao{
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#e78b48;
+color:white;
+}
+p.ptextheaderthongbao a{
+        text-transform: uppercase;
+        font-family: "UTM Alter Gothic"; /* no .ttf */
+	color: white;
+        font-size:20px;
+}
+p.ptextheaderthongbao:hover {
+ background:#da7928;
+ border-left: 1px solid #F3F8F7;
+ border-right: 1px solid #F3F8F7;
+    }
+
+span.xemthemthongbao{
+padding:10px 15px 10px 15px;
+background:#005393;
+color:white;
+
+}
+p.ptextheaderbancobiet{
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#cfa471;
+color:white;
+}
+p.ptextheaderbancobiet a{
+	text-transform: uppercase;
+        font-family: "UTM Alter Gothic"; /* no .ttf */
+	color: white;
+        font-size:20px;
+}
+p.ptextheaderbancobiet:hover {
+    background:#da7928;
+ border-left: 1px solid #F3F8F7;
+ border-right: 1px solid #F3F8F7;
+}
+
+span.xemthembancobiet{
+padding:10px 15px 10px 15px;
+background:#3679bd;
+color:white;
+
+}
+p.ptextheaderlienket{
+padding:10px 0px 10px 0px;
+text-align:center;
+background:#b49b73;
+color:white;
+}
+p.ptextheaderlienket a{
+	text-transform: uppercase;
+        font-family: "UTM Alter Gothic"; /* no .ttf */
+	color: white;
+        font-size:20px;
+}
+p.ptextheaderlienket:hover {
+   background:#da7928;
+ border-left: 1px solid #F3F8F7;
+ border-right: 1px solid #F3F8F7;
+}
+
+span.xemthemhethong{
+padding:10px 15px 10px 15px;
+background:#4b9ad4;
+color:white;
+
+}
+
+
+ul#ultintuc  {
+	display:block;
+	background:#ffffff;
+        min-height: 220px;
+       
+
+}
+ul#ultintuc li {
+  
+  height:40px;
+  border-bottom:1px #dedfe1 solid;
+  padding-bottom:5PX;
+  padding-top:10PX;
+  width: 238px;
+
+}
+
+ul#ultintuc li.liend {
+border-bottom:none;
+padding-top:10px;
+text-align: right;
+  height:10px;
+}
+
+ul#ultintuc li a {
+color:#202121;
+display: block;
+	}
+ul#ultintuc li a:hover {
+color:#FF6600;
+}
+/*------------------------ pages Thongbao - Chitietbaiviet-----------------------------------------*/
+/*-------- Footter-----------------------------------------------------------------------*/
+#divfooterhome
+{ 
+     clear:both;
+     height:25px;
+      padding:10px 0px 0px 0px;
+}
+p#pfooter {
+ 
+    color: #353536;
+}
+div#push {
+  clear:both;
+  height:25px;
+}
+/* xem them dt */
+ul.ulcontents1 li.lienddt a {
+border-bottom:none;
+text-align: right;
+font-size: 11.5px;
+}
+
+ul.ullienket {
+ list-style:none;
+
+
+}
+ul.ullienket li {
+      margin-right:2px;
+      padding:5px 0px 5px 0px;
+         
+}
+
+ul.ullienket li.home {
+background:url('../images/khoa/home_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.phong {
+background:url('../images/khoa/phong_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.ban {
+background:url('../images/khoa/ban_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.tttttv {
+background:url('../images/khoa/tttttv_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.khoa {
+background:url('../images/khoa/khoa_vhdl.png') no-repeat;
+background-position:10px center;
+}
+
+ul.ullienket li.mail {
+background:url('../images/khoa/email_vhdl.png') no-repeat;
+background-position:10px center;
+border-top: 1px #949698 solid;
+}
+
+ul.ullienket li.qlgiangduong {
+background:url('../images/khoa/qlgd_vhdl.png') no-repeat;
+background-position:10px center;
+}
+
+ul.ullienket li.vphttt {
+background:url('../images/khoa/vphttt_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.tkb {
+background:url('../images/khoa/tkb_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.tvs {
+background:url('../images/khoa/tvs_vhdl.png') no-repeat;
+background-position:10px center;
+}
+ul.ullienket li.acc {
+background:url('../images/khoa/acc_vhdl.png') no-repeat;
+background-position:10px center;
+}
+
+
+ul.ullienket li.lichcongtac {
+background:url('../images/khoa/lich_vhdl.png') no-repeat;
+background-position:10px center;
+border-top: 1px #949698 solid;
+}
+
+ul.ullienket a {
+    margin:0;
+    text-decoration:none;
+    font-size:12px;/*font-weight:bold;*/
+    display: block;
+    padding-left: 35px;
+    color:#373738;
+    text-align: left;
+ 
+}
+
+ul.ullienket a:hover{
+       color: #f3681d;
+}
+
+
+#header_thongbao {
+clear:both;
+height:100px;
+}
+div#wrapper_thongbao {
+	min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin-bottom:-25px; /* - height of footer */
+	background:url('../images/khoa/img_bgbaocaoquantrikinhdoanh.jpg') repeat-x;
+
+}
+
+table.tablechitietbaiviet {
+	width:100%;
+	min-height:500px;
+}
+
+table.tablechitietbaiviet tr td.col1
+{
+   width:193px;
+   vertical-align:top;
+}
+
+table.tablechitietbaiviet tr td.col2
+{
+   width:590px;
+   vertical-align:top;
+}
+
+table.tablechitietbaiviet tr td.col3
+{
+   width:215px;
+   vertical-align:top;
+}
+h2.h2title-detail {
+	background:url('../images/index/img_linehight.jpg') no-repeat;
+	background-position:left center;
+	padding:10px 10px 10px 80px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+        text-transform: uppercase;
+
+}
+h2.h2title {
+	font-size:14px;
+	border-bottom:5px #3a83b4 solid;
+	padding:0px 0px 5px 3px;
+	margin:0px 0px 5px 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+h2.h2titlesearch {
+	font-size:14px;
+	border-bottom:5px #3a83b4 solid;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+h2.h2title_tintuch2
+{
+       font-size:12px;
+	border-bottom:5px #3a83b4 solid;
+	padding:0px 0px 6px 3px;
+	margin:0px 0px 5px 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+h2.h2title_tintuc {
+	font-size:14px;
+	padding:0px 0px 5px 0px;
+	margin:0px 0px 5px 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+h2.h2title_thongbao{
+	font-size:12px;
+	border-bottom:5px #3a83b4 solid;
+	padding:0px 0px 7px 3px;
+	margin:0px 0px 5px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+h2.h2title_report 
+{
+	margin:8px 0px 8px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+
+}
+span.comentbaiviet
+{
+        font-size:14px;
+	border-bottom:1px #3a83b4 solid;
+        color:#828281;
+	margin:10px 0px 0px 12px;
+        font-weight:bold;
+        display: block;
+}
+div#divcontents_tintuc {
+    padding-left:12px;
+    text-align: justify;
+}
+
+div#divvisitor span{
+    text-align: right;
+    display: block;
+    padding:5px;
+     font-size: 11px;
+     font-style: italic;
+     color:#888888;
+}
+
+span.pdatetime {
+float:right;
+margin-top:-10px;
+font-weight:normal;
+font-size:12px;
+}
+ul.ulcontents1 {
+	display:block;
+   
+	
+}
+ul.ulcontents1 li {
+}
+
+ul.ulcontents1 li a {
+	margin:0px 5px 0px 15px;
+	padding:5px 0px 5px 0px;
+	border-bottom:1px #dedfe1 solid;
+	display:block;
+        text-align: justify;
+
+}
+a#titlereport {
+    
+    background: url('../images/khoa/WebResource.axd.gif') no-repeat;
+    padding-left: 18px;
+    background-position:left 5px;
+}
+span.datetime {
+    font-size: 11px;
+    font-style: italic;
+    color:#4e4d4d;
+}
+ ul.trang
+{
+	float: right;
+        margin:0;
+	padding:0;
+        margin-right:3px;
+           border: 1px #cccccc solid;
+         padding: 5px 20px 5px 20px;
+         margin-top: 5px;
+         box-shadow: 1px 1px 3px #888888;
+         
+}
+ul.trang li
+{
+	list-style: none;
+	margin:0 ;
+        display: inline;
+      
+	}
+ul.trang li a
+{       
+        text-decoration:none;
+        font-size:14px;
+        color:black;
+         padding:2px 5px 2px 5px ;
+        background:#ffffff;
+        border: 1px #cccccc solid;
+	}
+ul.trang li a:hover
+        
+        {       
+
+        text-decoration:none;
+        font-size:14px;
+        color:white;
+        background: #c50200;
+	}
+ul.trang li a:active
+        {       
+        font-size:14px;
+        color:white;
+        background: #c50200;
+        font-weight: bold; 
+	}
+ul.trang  li a#current
+{       
+display:inline;
+text-decoration: line;
+font-size:14px;
+ color:white;
+ background: #c50200;
+}
+div#norecord 
+{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: #e10d67;
+    font-size: 12px;
+    
+}
+span.date_calendar {
+    color:#045394;
+}
+span.spantext {
+    padding: 0px 5px 0px 5px;
+    display: block;
+}
+a.calender_title {
+    padding: 0px 5px 0px 5px; 
+    display: block
+}
+a.calender_title:hover {
+    text-decoration: underline;
+}
+#style_active {
+    color: red;
+}
+div.divheader_calender {
+    position: relative;
+     background: url('../images/khoa/img_bgweek.jpg') no-repeat;
+    background-position:620px center;
+    height: 100px;
+}
+div.divheader_calender h2 {
+    font-size: 20px;
+    text-align:center;
+    color: #045395;
+    font-weight: bold;
+  padding-top:10px;
+}
+div.divheader_calender p {
+     text-align:center;
+       font-size:18px;
+}
+span.spanweek {
+    position: absolute;
+    right:70px;
+    top:45px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff0000;
+}
+span.spanyear {
+    position: absolute;
+    right:64px;
+    top:70px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#id_search {
+    background: url('../images/khoa/img_bgserachcanlendar.jpg') no-repeat;width: 25px;border: none;padding:3px;cursor:pointer;
+}
+div#divghichu {
+    padding:0px 10px 10px 15px;
+}
+h2.h2ghichu {
+    font-weight: bold;
+    padding:10px 0px 0px 15px; 
+}
+p.title_calendar {
+    background:#F3F8F7;
+    padding:5px;
+    font-weight: bold;
+    height: 100%;
+}
+p.c_namecalendar {
+     background: url('../images/khoa/top-nav.jpg') repeat-x;
+     padding:5px; 
+     font-weight: bold;
+}
+a.atrove {
+    position: absolute;
+    background: url('../images/khoa/img_cmd_trove.jpg') repeat-x;
+    width: 34px;
+    display: block;
+}
+a.achitiet {font-size: 11px;font-style: italic;}
+
+       img.img_logo {
+	width:80px;
+	height:80px;
+	float:left;
+	padding:15px 15px 0px 15px;
+	display:block;
+}
+  h1.title_chuyenmuc {
+   color:#bd0215;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 80px;
+
+}
+h1.title_chuyenmuc a
+{
+    color:#bd0215;
+    text-decoration: underline;
+}
+h1.title_chuyenmuc a:hover 
+{
+    color: #006699;
+}
+/*-------------style Lịch công tác---------------------*/
+#wrapperlich{
+            width: 253px;
+            
+        }
+        h4{
+           
+            font: 900 14px/30px "georgia";
+            padding-left: 20px;
+            border: 1px outset #fff;
+            background: url('../images/khoa/top-nav.jpg') repeat-x;
+        }
+        
+        h4:hover{
+            cursor: pointer;
+            background-color: #ddd;
+        }
+        
+        p.plich{
+            padding: 10px;
+            border: 5px solid #ddd;
+            font: normal 13px/18px "arial";
+             background-color:white;
+        }
+  a.atittlecalendar {
+    
+    background: url('../images/khoa/WebResource.axd.gif') no-repeat;
+    padding-left: 18px;
+    background-position:left 0px;
+   }
+   a.aactive {
+      color: #FF6600; 
+   }
+   /*--- end style Lich-------------*/

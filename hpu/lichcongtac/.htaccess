@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule HPUlich.html$ calendar.php [QSA,L]
+RewriteRule HPUlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1 [QSA,L]
+RewriteRule HPUlich-ngay.html$ calendardate.php [QSA,L]
+
+
+
+
+
+
+
+

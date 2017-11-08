@@ -1,0 +1,42 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+
+RewriteRule HPU-([a-zA-Z0-9_-]+).html$ listnews.php?sturl=$1 [QSA,L]
+RewriteRule HPUTT-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?pk_myseft=$1&PK_TINBAI_ID=$2&sturl=$3 [QSA,L]
+
+RewriteRule HPUGT-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_intro.php?pk_intro=$1&sturl=$2 [QSA,L]
+RewriteRule ([0-9]+)-Doi-Ngu-Giang-Day.html$ listnews_profile.php?pk_intro=$1 [QSA,L]
+
+RewriteRule HPUGTTT-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?pk_intro=$1&PK_TINBAI_ID=$2&sturl=$3 [QSA,L]
+
+RewriteRule HPUSKB-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?pk_myseft=$1&sturl=$2 [QSA,L]
+RewriteRule HPUCTSKB-([a-zA-Z0-9_-]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?sturl=$1&pk_myseft=$2&PK_TINBAI_ID=$3&title=$4 [QSA,L]
+
+RewriteRule HPUHP-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?pk_myseft=$1&sturl=$2 [QSA,L]
+
+RewriteRule HPUSVTL-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob_svtl.php?dtsvtuonglai_id=$1&sturl=$2 [QSA,L]
+RewriteRule HPUSVTLCT-([a-zA-Z0-9_-]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?sturl=$1&dtsvtuonglai_id=$2&PK_TINBAI_ID=$3 [QSA,L]
+
+RewriteRule HPUSVDH-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob_svdh.php?dtsvdanghoc_id=$1&sturl=$2 [QSA,L]
+RewriteRule HPUSVDHCT-([a-zA-Z0-9_-]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?sturl=$1&dtsvdanghoc_id=$2&PK_TINBAI_ID=$3 [QSA,L]
+
+RewriteRule HPUCSV-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob_csv.php?dtcuusinhvien_id=$1&sturl=$2 [QSA,L]
+RewriteRule HPUCSVCT-([a-zA-Z0-9_-]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?sturl=$1&dtcuusinhvien_id=$2&PK_TINBAI_ID=$3 [QSA,L]
+
+RewriteRule HPUDN-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob_dn.php?dtdoanhnghiep_id=$1&sturl=$2 [QSA,L]
+RewriteRule HPUDNCT-([a-zA-Z0-9_-]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?sturl=$1&dtdoanhnghiep_id=$2&PK_TINBAI_ID=$3 [QSA,L]
+
+RewriteRule HPUtuyensinh-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?pk_tuyensinh=$1&sturl=$2 [QSA,L]
+RewriteRule HPUTSCT-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?pk_tuyensinh=$1&PK_TINBAI_ID=$2&sturl=$3 [QSA,L]
+
+
+
+

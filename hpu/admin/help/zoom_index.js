@@ -1,0 +1,242 @@
+dictwords = ["hướng 0 26 192 1 10 32",
+	"dẫn 0 26 192 1 10 32",
+	"phân 0 54 248",
+	"quyền 0 131 254",
+	"người 0 142 255",
+	"dùng 0 78 219",
+	"top 0 10 64 1 10 64",
+	"previous 0 10 64",
+	"next 0 10 64 1 10 64",
+	"website 0 40 96 1 10 32",
+	"hpu 0 18 96 1 26 224",
+	"1.đường 0 10 32",
+	"link 0 10 32",
+	"truy 0 10 32",
+	"cập 0 10 32",
+	"vào 0 18 48",
+	"trang 0 10 32 1 33 40",
+	"quản 0 78 60 1 54 48",
+	"trị 0 78 60 1 10 32",
+	"http 0 10 32",
+	"hpu.edu.vn 0 18 33",
+	"admin 0 10 32",
+	"hoặc 0 78 63",
+	"trên 0 18 36 1 47 232",
+	"thống 0 33 49 1 33 228",
+	"các 0 33 56",
+	"đơn 0 66 62 1 10 4",
+	"2.tài 0 10 32",
+	"khoản 0 84 60 1 10 32",
+	"đăng 0 10 32 1 89 248",
+	"nhập 0 18 32",
+	"-đăng 0 10 32",
+	"dụng 0 40 49 1 10 16",
+	"tài 0 78 60 1 10 32",
+	"acc 0 40 48",
+	"-khi 0 18 32",
+	"tiến 0 10 32",
+	"hành 0 10 32",
+	"cần 0 54 54",
+	"được 0 94 63",
+	"qtm 0 18 48",
+	"gửi 0 18 32",
+	"này 0 84 62",
+	"của 0 26 48 1 26 52",
+	"mạng 0 10 32",
+	"cho 0 60 62",
+	"trưởng 0 33 44",
+	"tiếp 0 33 44",
+	"nhận 0 33 44",
+	"trong 0 10 32",
+	"biên 0 10 32",
+	"bản 0 10 32",
+	"bàn 0 10 32",
+	"giao 0 10 32",
+	"viết 0 40 54 1 18 40",
+	"bài 0 112 30 1 72 40",
+	"duyệt 0 84 30 1 26 8",
+	"nhân 0 18 16",
+	"trước 0 10 16",
+	"3.vào 0 10 16",
+	"menu 0 26 24",
+	"chức 0 26 17",
+	"năng 0 26 17",
+	"4.thêm 0 10 16",
+	"mới 0 54 28 1 10 32",
+	"danh 0 10 16",
+	"sách 0 10 16",
+	"đưa 0 18 18",
+	"chỉ 0 47 30",
+	"sẵn 0 10 16",
+	"thêm 0 33 28",
+	"khi 0 26 19 1 18 40",
+	"cán 0 18 18",
+	"giảng 0 18 18",
+	"viên 0 33 18",
+	"cộng 0 18 18",
+	"tác 0 60 19 1 26 36",
+	"tham 0 18 17",
+	"gia 0 18 17",
+	"5.chỉnh 0 10 16",
+	"sửa 0 40 28",
+	"thông 0 10 16 1 26 24",
+	"tin 0 18 20 1 26 40",
+	"6.phân 0 10 8",
+	"-các 0 18 8",
+	"định 0 40 12 1 18 48",
+	"nghĩa 0 40 12",
+	"sao 0 10 8",
+	"chép 0 10 8",
+	"xóa 0 47 13 1 10 16",
+	"kích 0 33 14",
+	"hoạt 0 33 14",
+	"liệt 0 10 8",
+	"tìm 0 10 8",
+	"kiếm 0 10 8",
+	"xem 0 10 8",
+	"đối 0 18 12",
+	"tượng 0 26 12",
+	"oquản 0 18 12",
+	"tạo 0 10 8 1 10 8",
+	"chỉnh 0 26 12",
+	"cấp 0 54 14",
+	"nhóm 0 47 12",
+	"khoa 0 26 12 1 10 8",
+	"gợi 0 33 14",
+	"giữ 0 26 12",
+	"ochuyên 0 10 8",
+	"mục 0 10 8",
+	"ođối 0 10 4",
+	"levelsite 0 18 4 1 10 32",
+	"othông 0 10 4",
+	"báo 0 10 4 1 26 24",
+	"level 0 18 6",
+	"site 0 26 6",
+	"oghi 0 10 2",
+	"chú 0 10 2",
+	"lịch 0 26 2 1 10 4",
+	"công 0 40 2 1 10 4",
+	"theo 0 10 2",
+	"tuần 0 10 2",
+	"đây 0 10 2",
+	"phần 0 18 2 1 10 16",
+	"cuối 0 10 2",
+	"cùng 0 10 2",
+	"trọng 0 18 3",
+	"tâm 0 10 2",
+	"olịch 0 10 2",
+	"lên 0 10 2",
+	"mail 0 10 2",
+	"7.xóa 0 10 2",
+	"chuyển 0 10 2 1 18 16",
+	"nghỉ 0 10 2",
+	"không 0 10 1",
+	"phép 0 10 1",
+	"khỏi 0 10 1",
+	"mọi 0 10 1",
+	"thắc 0 10 1",
+	"mắc 0 10 1",
+	"thao 0 10 1 1 18 32",
+	"xin 0 10 1",
+	"liên 0 10 1 1 18 4",
+	"chiến 0 10 1",
+	"mobile 0 10 1",
+	"01668 0 10 1",
+	"455 0 10 1",
+	"422 0 10 1",
+	"email 0 10 1",
+	"vtchien 0 10 1",
+	"hng_dn_phan_quyn_ngi_dung.htm 0 6 64",
+	"cách 1 66 216",
+	"thức 1 66 216",
+	"nội 1 18 192",
+	"dung 1 18 192",
+	"contents 1 10 32",
+	"cấu 1 10 32",
+	"trúc 1 10 32",
+	"lượng 1 10 32",
+	"qui 1 10 32",
+	"chung 1 10 32",
+	"hình 1 10 32",
+	"thực 1 10 32",
+	"hiện 1 10 32",
+	"mainsite 1 18 36",
+	"ảnh 1 18 16",
+	"video 1 18 16",
+	"cài 1 10 16",
+	"đặt 1 10 16",
+	"ứng 1 10 16",
+	"rộng 1 10 16",
+	"mềm 1 10 16",
+	"office 1 10 16",
+	"2007 1 10 16",
+	"file 1 18 16",
+	"sang 1 10 16",
+	"pdf 1 10 16",
+	"fie 1 10 16",
+	"đính 1 18 16",
+	"kèm 1 18 16",
+	"đổi 1 10 16",
+	"font 1 10 16",
+	"chữ 1 10 16",
+	"chuẩn 1 10 16",
+	"dạng 1 10 16",
+	"thừa 1 10 16",
+	"bảng 1 18 8",
+	"tức 1 10 8",
+	"phòng 1 10 8",
+	"ban 1 10 8",
+	"thư 1 10 8",
+	"viện 1 10 8",
+	"kết 1 10 4",
+	"trợ 1 10 4",
+	"triển 1 10 4",
+	"khai 1 10 4",
+	"hung_dn_dang_bai_tren_h_thng_websi 1 6 64",
+	"te_hpu_mi.htm 1 6 64"];
+skipwords = ["and,or,the,it,is,an,on,we,us,to,of,"];
+var STR_FORM_SEARCHFOR = "Search for:";
+var STR_FORM_SUBMIT_BUTTON = "Submit";
+var STR_FORM_RESULTS_PER_PAGE = "Results per page:";
+var STR_FORM_CATEGORY = "Category:";
+var STR_FORM_CATEGORY_ALL = "All";
+var STR_FORM_MATCH = "Match:";
+var STR_FORM_ANY_SEARCH_WORDS = "any search words";
+var STR_FORM_ALL_SEARCH_WORDS = "all search words";
+var STR_NO_QUERY = "No search query entered.";
+var STR_RESULTS_FOR = "Search results for:";
+var STR_RESULTS_IN_ALL_CATEGORIES = "in all categories";
+var STR_RESULTS_IN_CATEGORY = "in category";
+var STR_POWEREDBY = "Search powered by";
+var STR_NO_RESULTS = "No results";
+var STR_RESULT = "result";
+var STR_RESULTS = "results";
+var STR_PHRASE_CONTAINS_COMMON_WORDS = "Your search query contained too many common words to return the entire set of results available. Please try again with a more specific query for better results.";
+var STR_SKIPPED_FOLLOWING_WORDS = "The following word(s) are in the skip word list and have been omitted from your search:";
+var STR_SKIPPED_PHRASE = "Note that you can not search for exact phrases beginning with a skipped word";
+var STR_SUMMARY_NO_RESULTS_FOUND = "No results found.";
+var STR_SUMMARY_FOUND_CONTAINING_ALL_TERMS = "found containing all search terms.";
+var STR_SUMMARY_FOUND_CONTAINING_SOME_TERMS = "found containing some search terms.";
+var STR_SUMMARY_FOUND = "found.";
+var STR_PAGES_OF_RESULTS = "pages of results.";
+var STR_MORETHAN = "More than";
+var STR_POSSIBLY_GET_MORE_RESULTS = "You can possibly get more results searching for";
+var STR_ANY_OF_TERMS = "any of the terms";
+var STR_ALL_CATS = "all categories";
+var STR_CAT_SUMMARY = "Refine your search by category:";
+var STR_DIDYOUMEAN = "Did you mean:";
+var STR_OR = "or";
+var STR_RECOMMENDED = "Recommended links";
+var STR_SORTEDBY_RELEVANCE = "Sorted by relevance";
+var STR_SORTBY_RELEVANCE = "Sort by relevance";
+var STR_SORTBY_DATE = "Sort by date";
+var STR_SORTEDBY_DATE = "Sorted by date";
+var STR_RESULT_TERMS_MATCHED = "Terms matched: ";
+var STR_RESULT_SCORE = "Score: ";
+var STR_RESULT_URL = "URL:";
+var STR_RESULT_PAGES = "Result Pages:";
+var STR_RESULT_PAGES_PREVIOUS = "Previous";
+var STR_RESULT_PAGES_NEXT = "Next";
+var STR_SEARCH_TOOK = "Search took";
+var STR_SECONDS = "seconds";
+var STR_MAX_RESULTS = "You have requested more results than served per query. Please try again with a more precise query.";

@@ -1,0 +1,51 @@
+
+
+/*  COOKIE POPUP
+-------------------------------------------*/
+
+
+div.cookie-popup-wrap{
+	display: none;
+	width: 100%; height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;left: 0;
+	z-index:100;
+}
+#container {
+	position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,0.8);
+		z-index: 1005;
+		display: none;
+		top: 0;
+		left: 0; 
+              
+}
+div.cookie-popup{
+	width:1000px;
+	margin: 3% auto;
+	z-index: 1005; 
+        text-align: center;
+}
+
+div.cookie-popup h2{
+        width:1000px;
+	margin: 3% auto;
+        text-align: left;
+   
+}
+
+
+
+div.cookie-popup h6{
+    font-size: 12px;
+    text-align: right;
+}
+
+div.cookie-popup h6 a{
+	color: #888;
+	text-decoration: none;
+}

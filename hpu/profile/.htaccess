@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+
+RewriteRule ScientificProfile-([a-zA-Z0-9_-]+)-([0-9]+).pdf$ profile1.php?sturl=$1&profileid=$2 [QSA,L]
+RewriteRule ScientificProfile1-([a-zA-Z0-9_-]+)-([0-9]+).pdf$ profile2.php?sturl=$1&profileid=$2 [QSA,L]
+
+
+
+
+
+

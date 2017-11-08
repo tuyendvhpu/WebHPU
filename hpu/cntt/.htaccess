@@ -1,0 +1,22 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule CNTTthongbao-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&title=$2
+RewriteRule CNTTtintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&atid=$4
+RewriteRule CNTTlich.html$ calendar.php
+RewriteRule CNTTlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1
+RewriteRule CNTTlich-ngay.html$ calendardate.php
+RewriteRule CNTTthongbao.html$ list_notice.php
+RewriteRule CNTTchuyenmuc-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&title=$2
+RewriteRule CNTTchuyenmuc.html$ listnews.php
+RewriteRule CNTTdoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?obid=$1&title=$2 [QSA,L]
+RewriteRule CNTTdttimkiem.html$ listnews_ob.php [QSA,L]
+RewriteRule CNTTtrangchu.html$ index.php
+RewriteRule CNTTtintuc.html$ listnews.php
+RewriteRule CNTTthongbaodt-([0-9]+).html$ list_notice_ob.php?obid=$1 [QSA,L]
+RewriteRule CNTTthongbaodttimkiem.html$ list_notice_ob.php [QSA,L]
+RewriteRule CNTThethonglienket.html$ systemlist.php
+
+
+

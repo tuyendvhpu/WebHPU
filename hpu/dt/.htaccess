@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule Doanthe-trangchu.html$ index.php
+
+RewriteRule Doanthechitietthongbao-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&obid=$2&subid=$3&fk_congty=$4
+RewriteRule Doanthechitiettintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&fk_congty=$4
+RewriteRule Doanthethongbao.html$ list_notice.php
+RewriteRule Doanthethongbaodonvi-([0-9]+).html$ list_notice_dv.php?fk_congty=$1
+RewriteRule Doanthechuyenmuc-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&fk_congty=$2&title=$3
+RewriteRule Doanthedoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?obid=$1&title=$2
+RewriteRule Doanthetintuctonghop.html$ lisnewskp.php
+RewriteRule Doanthegioithieu.html$ listnewsintro.php
+RewriteRule Doanthetuyenduong.html$ citation.php
+RewriteRule Doanthetintonghop-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+)-([0-9]+).html$ listnews.php?subid=$1&fk_congty=$2&s=$3&p=$4
+RewriteRule Doanthechitiettintucgt-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&fk_congty=$4&flag=$5
+
+
+
+
+

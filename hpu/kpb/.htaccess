@@ -1,0 +1,41 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# disable the server signature
+ServerSignature Off
+
+# set the canonical url
+RewriteCond %{HTTP_HOST} ^phong.hpu.edu.vn\.com$ [NC]
+RewriteRule ^(.*)$ http://phong.hpu.edu.vn/$1 [R=301,L]
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+ErrorDocument 401 /err/400.html
+ErrorDocument 401 /err/401.html
+ErrorDocument 403 /err/403.html
+ErrorDocument 404 /err/404.html
+
+RewriteRule CacPhong-trangchu.html$ index.php
+
+RewriteRule Khoiphongchitietthongbao-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&obid=$2&subid=$3&fk_congty=$4
+RewriteRule Khoiphongchitiettintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&fk_congty=$4
+RewriteRule Khoiphongthongbao.html$ list_notice.php
+RewriteRule Khoiphongthongbaodonvi-([0-9]+).html$ list_notice_dv.php?fk_congty=$1
+RewriteRule Khoiphongchuyenmuc-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&fk_congty=$2&title=$3
+RewriteRule Khoiphongdoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?obid=$1&title=$2
+RewriteRule Khoiphongtintuctonghop.html$ lisnewskp.php
+RewriteRule Khoiphonggioithieu.html$ listnewsintro.php
+RewriteRule Khoiphongtintonghop-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+)-([0-9]+).html$ listnews.php?subid=$1&fk_congty=$2&s=$3&p=$4
+RewriteRule Khoiphongchitiettintucgt-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&fk_congty=$4&flag=$5
+RewriteRule Khoiphonglich.html$ calendar.php
+RewriteRule Khoiphonglich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1 [QSA,L]
+RewriteRule Khoiphonglich-ngay.html$ calendardate.php
+
+
+
+
+

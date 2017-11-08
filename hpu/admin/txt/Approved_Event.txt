@@ -1,0 +1,23 @@
+Subject:<!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc: 
+Bcc:
+Format: TEXT
+
+Thông báo từ hệ thống Website HPU 
+
+    Cần sự kiểm duyệt cho sự kiện : <!--$Noidung-->
+
+    Đã được hoàn thành trên hệ thống HPU của tác giả : <!--$hotentacgia-->  
+    
+    Vào hệ thống HPU để kích hoạt sự kiện. Để thông tin sự kiện sớm tới bạn đọc. Xin chân thành cám ơn !
+   
+    Liên hệ tác giả theo địa chỉ Email: <!--$mailtacgia--> khi có thắc mắc.
+    
+   
+    Liên hệ Quản Trị Mạng - ĐT:0936821821 để được hỗ trợ tốt nhất.
+    Trường Đại học Dân lập Hải Phòng - Haiphong Private University
+    Địa chỉ: Số 36 - Đường Dân Lập - Phường Dư Hàng Kênh - Quận Lê Chân - TP Hải Phòng
+    Điện thoại: 031 3740577 - 031 3833802 - 031 3740578  Fax: 031.3740476  Email: webmaster@hpu.edu.vn
+

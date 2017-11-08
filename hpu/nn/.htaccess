@@ -1,0 +1,41 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# disable the server signature
+ServerSignature Off
+
+# set the canonical url
+RewriteCond %{HTTP_HOST} ^nn.hpu.edu.vn\.com$ [NC]
+RewriteRule ^(.*)$ http://nn.hpu.edu.vn/$1 [R=301,L]
+
+Options -Indexes
+<files .htaccess="">
+    order allow,deny
+    deny from all
+</files>
+
+ErrorDocument 401 /err/400.html
+ErrorDocument 401 /err/401.html
+ErrorDocument 403 /err/403.html
+ErrorDocument 404 /err/404.html
+ErrorDocument 500 /err/500.html
+
+RewriteRule NNthongbao-([0-9]+)-([a-zA-Z0-9_-]+).html$ notice.php?noticeid=$1&title=$2
+RewriteRule NNtintuc-([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z0-9_-]+).html$ detailnews.php?catid=$1&obid=$2&subid=$3&atid=$4
+RewriteRule NNlich.html$ calendar.php
+RewriteRule NNlich-sukien-([0-9]+).html$ calendarevent.php?eventid=$1
+RewriteRule NNlich-ngay.html$ calendardate.php
+RewriteRule NNthongbao.html$ list_notice.php
+RewriteRule NNchuyenmuc-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews.php?subid=$1&title=$2
+RewriteRule NNchuyenmuc.html$ listnews.php
+RewriteRule NNdoituong-([0-9]+)-([a-zA-Z0-9_-]+).html$ listnews_ob.php?obid=$1&title=$2 [QSA,L]
+RewriteRule NNdttimkiem.html$ listnews_ob.php [QSA,L]
+RewriteRule NNtrangchu.html$ index.php
+RewriteRule NNtintuc.html$ listnews.php
+RewriteRule NNthongbaodt-([0-9]+).html$ list_notice_ob.php?obid=$1 [QSA,L]
+RewriteRule NNthongbaodttimkiem.html$ list_notice_ob.php [QSA,L]
+RewriteRule NNhethonglienket.html$ systemlist.php
+
+
+
